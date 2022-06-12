@@ -1,0 +1,50 @@
+
+<button class="btn btn-danger rightsideToggleButton" onclick="myFunction()">Click Me</button>			
+<div class="Rightsidebar" id="Rightsidebar">
+	<div>Menu Item 1</div>
+	<div>Menu Item 2</div>
+	<div>Menu Item 3</div>
+	</div>
+	
+	<div class="body-text">
+	<!-- body content -->
+	</div>
+
+/* CSS */
+.rightsideToggleButton{
+
+position: -webkit-sticky; 
+position: sticky;
+float: right;
+margin-top: 10px;
+background-color: lightblue;
+}
+
+.Rightsidebar {
+height: 400px;
+width: 400px;
+position: -webkit-sticky; /* for Safari users */
+position: sticky;
+top: 0px;
+float: right;
+margin-top: 100px;
+padding-top: 40px;
+background-color: lightblue;
+}
+
+.Rightsidebar div {
+padding: 8px;
+font-size: 24px;
+display: block;
+}
+
+<script>
+		function myFunction() {
+		var x = document.getElementById("Rightsidebar");
+		if (x.style.display === "none") {
+		  x.style.display = "block";
+		} else {
+		  x.style.display = "none";
+		}
+	  }
+	</script>
