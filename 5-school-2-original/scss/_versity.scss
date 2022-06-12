@@ -1,0 +1,63 @@
+.versity{
+    padding-bottom: 140px;
+    .section_header{
+        h4{
+            font-family: $worksans;
+            font-size: 40px;
+            font-weight: 700;
+            color: $black;
+        }
+  }
+   .versity_wrapper{
+             padding-top: 70px;
+         .versity_wrap{
+                 border-radius: 10px;
+                 box-shadow: 1px 1.732px 40px 0px rgba(0,0,0,0.2);
+                 margin-top: 40px;
+
+                 &:hover{
+                    box-shadow: 1px 1.732px 40px 0px rgba(0,0,0,0.4); 
+
+                 }
+                 &:hover .versity_text h4{
+                    color: #ffba00;
+                 }
+                 &:hover .versity_text a{
+                    color: $black;
+                    font-weight: 500;
+                 }
+                .versity_img{
+                      img{
+                          width: 100%;
+                      }
+                }
+                .versity_text{
+                    padding: 20px;
+                    background-color: $white;
+                    
+                    h4{
+                        font-family: $worksans;
+                        font-size: 18px;
+                        font-weight: 500;
+                        color: $black;
+                        line-height: 28px;  
+                       }
+                       h5{
+                        font-family: $roboto;
+                        font-size: 15px;
+                        font-weight: 500;
+                        color: $text;
+                        line-height: 24px;
+                        padding-bottom: 30px; 
+                       }
+                       a{
+                        font-family: $monstar;
+                        font-size: 15px;
+                        font-weight: 500;
+                        color: $text;
+                        line-height: 24px;  
+                       }
+                }
+         }
+   }
+}

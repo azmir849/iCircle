@@ -1,0 +1,30 @@
+.banner{
+    background-image: url(../images/banner_img.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .banner_wrapper{
+        padding: 300px 0;
+           .banner_item{
+                h4{
+                    font-family: $monstar;
+                    font-size: 40px;
+                    font-weight: 700;
+                    color: $biscuit;
+                    line-height: 56px;
+                }
+                p{
+                    font-family: $worksans;
+                    font-size: 18px;
+                    font-weight: 400;
+                    color: $text;
+                    line-height: 26px;
+                    padding: 28px 50px 28px 0;
+                }
+                a{
+                    @include button;
+                }
+           }
+    }
+
+}

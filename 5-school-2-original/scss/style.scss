@@ -1,0 +1,70 @@
+/*<><><><><><><<><><><><><<><><><><>
+
+Template Name:Junior School MicroSite 1
+Template URL : 
+Description  :
+Author       : Fahim Ahmed
+Author URL   :
+Version      : 1.1.1
+
+<><><><><><><<><><><><><<><><><><>*/
+
+/*----------------------------------
+       HTML  INDEX LIST
+
+01. Haeder
+02. NavOffcan
+03. Banner
+03. Department
+03. About
+03. Versity
+03. Footer
+03. backtoTop
+
+-------------------------------------*/
+
+
+
+/*---------------------------------
+       CSS INDEX LIST
+
+01. 
+02. 
+03. 
+
+------------------------------------*/
+
+
+/*     Google Font Connections
+-------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+
+/*      SCSS Pages Connections 
+<><><><<><<><><<><><><><><><<><><><>*/
+
+@import "../scss/common_css/common";
+
+@import "../scss/mixin_scss/mixin";
+
+@import "../scss/variable_scss/variable";
+
+
+
+
+
+/*     SCSS Sections Connections 
+<><><><<><<><><<><><><><><><<><><><>*/
+
+@import "../scss/header";
+@import "../scss/navOffcan";
+@import "../scss/banner";
+@import "../scss/departmet";
+@import "../scss/about";
+@import "../scss/versity";
+@import "../scss/_footer";
+@import "../scss/backtotop";
+
+
+
+
