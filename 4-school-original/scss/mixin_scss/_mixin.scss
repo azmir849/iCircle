@@ -1,0 +1,14 @@
+@mixin  button {
+     padding: 15px 32px;
+     background-color: $biscuit;
+     color: $white;
+     font-size: 18px;
+     font-family: $worksans;
+     font-weight: 500;
+     border-radius: 30px;
+     border: 1px solid transparent;
+     &:hover{
+         background-color: $text;
+         
+     }
+}

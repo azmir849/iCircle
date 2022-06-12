@@ -1,0 +1,468 @@
+@media (min-width: 320px) and (max-width: 479.98px){  
+/* header */
+.header {
+	background-color: #43cb8272;
+    padding: 10px 0;
+}
+.newclass{
+	background-color: #7fe6af;
+    padding: 10px 0;
+}
+/* offcanvas */
+.btn-close:focus {
+	outline: 0;
+	box-shadow: 0 0 0 .25rem transparent;
+	opacity: 1;
+}
+.offcanvas-end {
+    width: 280px;
+} 
+/* banner */
+.banner {
+	background-position: center;
+}
+.banner .banner_wrapper .banner_item p {
+	color: black;
+}
+.banner .banner_wrapper {
+	padding: 150px 0 60px 0;
+}
+.banner .banner_wrapper .banner_item a {
+	background-color: #43cb83;
+}
+.banner .banner_wrapper .banner_item a:hover {
+	background-color: #5a6e79;
+}
+
+/* department */
+.department {
+	padding: 0px 0;
+}
+.department .section_header p {
+	padding: 25px 0px;
+}
+.department .departmet_wrapper .department_item {
+	margin-top: 20px;
+}
+
+/* about */
+.about .about_Cercle {
+  display: none;
+}
+.about .about_wrapper .about_left .left_img::before {
+	display: none;
+}
+.about .about_wrapper .about_left .left_img::after {
+	display: none;
+}
+.about .about_wrapper .about_left .round_attached {
+	display: none;
+}
+.about .about_wrapper .about_left .left_img img {
+	height: 400px;
+}
+.about .about_wrapper .about_right {
+	padding-left: 0px;
+    padding-top: 20px;
+}
+.about_wrapper {
+	padding-top: 50px;
+}
+/* apply */
+.apply .apply_wrapper .apply_right .apply_form .apply_card h4 {
+	font-size: 28px;
+	letter-spacing: 8px;
+}
+.apply .apply_wrapper .apply_right .apply_form .apply_card form label {
+	font-size: 12px;
+}
+.apply .apply_wrapper .apply_right .apply_form .apply_card .info {
+	display: list-item;
+}
+.call {
+    padding-top: 20px;
+}
+.apply_left {
+	display: none;
+}
+/* news */
+.news .news_wrapper {
+	border-bottom: 1px solid #eff0f3;
+	padding: 30px 0;
+}
+/* footer */
+.footer .footer_wrapper h3 {
+	padding-top: 15px;
+}  
+
+}
+    
+@media (min-width: 480px) and (max-width: 575.98px){ 
+     /*header  */
+     .header {
+        background-color: #43cb8272;
+        padding: 10px 0;
+    }
+    .newclass{
+        background-color: #7fe6af;
+        padding: 10px 0;
+    }
+    /* offcanvas */
+    .btn-close:focus {
+        outline: 0;
+        box-shadow: 0 0 0 .25rem transparent;
+        opacity: 1;
+    }
+    .offcanvas-end {
+        width: 280px;
+    } 
+    /* banner */
+    .banner {
+        background-position: center;
+    }
+    .banner .banner_wrapper .banner_item p {
+        color: black;
+    }
+    .banner .banner_wrapper {
+        padding: 150px 0 100px 0;
+    }
+    .banner .banner_wrapper .banner_item a {
+        background-color: #43cb83;
+    }
+    .banner .banner_wrapper .banner_item a:hover {
+        background-color: #5a6e79;
+    }
+    
+    /* department */
+    .department {
+        padding: 0px 0;
+    }
+    .department .section_header p {
+        padding: 25px 0px;
+    }
+    .department .departmet_wrapper .department_item {
+        margin-top: 20px;
+    }
+    
+    /* about */
+    .about .about_Cercle {
+      display: none;
+    }
+    .about .about_wrapper .about_left .left_img::before {
+        display: none;
+    }
+    .about .about_wrapper .about_left .left_img::after {
+        display: none;
+    }
+    .about .about_wrapper .about_left .round_attached {
+        display: none;
+    }
+    .about .about_wrapper .about_left .left_img img {
+        height: 470px;
+    }
+    .about .about_wrapper .about_right {
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+    .about_wrapper {
+        padding-top: 50px;
+    }
+    /* apply */
+    .apply .apply_wrapper .apply_right .apply_card h4 {
+        font-size: 26px;
+        letter-spacing: 8px;
+    }
+    .apply .apply_wrapper .apply_right .apply_card form label {
+        font-size: 11px;
+    }
+    .apply .apply_wrapper .apply_right .apply_card .info {
+        display: list-item;
+    }
+    .call {
+        padding-top: 20px;
+    }
+    .apply_left {
+        display: none;
+    }
+    /* news */
+    .news .news_wrapper {
+        padding: 30px 0;
+    }
+    
+    /* footer */
+    .footer .footer_wrapper h3 {
+        padding-top: 15px;
+    }  
+    
+}
+    
+@media (min-width: 576px) and (max-width: 767.98px){ 
+    /*header  */
+    .header {
+       background-color: #43cb8272;
+       padding: 10px 0;
+   }
+   .newclass{
+       background-color: #7fe6af;
+       padding: 10px 0;
+   }
+   /* offcanvas */
+   .btn-close:focus {
+       outline: 0;
+       box-shadow: 0 0 0 .25rem transparent;
+       opacity: 1;
+   }
+   .offcanvas-end {
+       width: 280px;
+   } 
+   /* banner */
+   .banner {
+       background-position: center;
+   }
+   .banner .banner_wrapper .banner_item p {
+       color: black;
+   }
+   .banner .banner_wrapper {
+       padding: 150px 0 100px 0;
+   }
+   .banner .banner_wrapper .banner_item a {
+       background-color: #43cb83;
+   }
+   .banner .banner_wrapper .banner_item a:hover {
+       background-color: #5a6e79;
+   }
+   
+   /* department */
+   .department {
+       padding: 0px 0;
+   }
+   .department .section_header p {
+       padding: 25px 0px;
+   }
+   .department .departmet_wrapper .department_item {
+       margin-top: 20px;
+   }
+   
+   /* about */
+   .about .about_Cercle {
+     display: none;
+   }
+   .about .about_wrapper .about_left .left_img::before {
+       display: none;
+   }
+   .about .about_wrapper .about_left .left_img::after {
+       display: none;
+   }
+   .about .about_wrapper .about_right {
+       padding-left: 0px;
+       padding-top: 20px;
+   }
+   .about_wrapper {
+       padding-top: 50px;
+   }
+   /* apply */
+   .apply .apply_wrapper .apply_right .apply_card h4 {
+       font-size: 26px;
+       letter-spacing: 8px;
+   }
+   .apply .apply_wrapper .apply_right .apply_card form label {
+       font-size: 11px;
+   }
+   .apply .apply_wrapper .apply_right .apply_card .info {
+       display: list-item;
+   }
+   .call {
+       padding-top: 20px;
+   }
+   .apply_left {
+       display: none;
+   }
+   /* news */
+   .news .news_wrapper {
+       padding: 30px 0;
+   }
+   
+   /* footer */
+   .footer .footer_wrapper h3 {
+       padding-top: 15px;
+   }  
+   
+}
+    
+@media (min-width: 768px) and (max-width: 991.98px){ 
+    /*header  */
+    .header {
+       background-color: #43cb8272;
+       padding: 10px 0;
+   }
+   .newclass{
+       background-color: #7fe6af;
+       padding: 10px 0;
+   }
+   /* offcanvas */
+   .btn-close:focus {
+       outline: 0;
+       box-shadow: 0 0 0 .25rem transparent;
+       opacity: 1;
+   }
+   .offcanvas-end {
+       width: 280px;
+   } 
+   /* banner */
+   .banner {
+       background-position: center;
+   }
+   .banner .banner_wrapper .banner_item p {
+       color: black;
+   }
+   .banner .banner_wrapper {
+	padding: 180px 0 150px 0;
+}
+   .banner .banner_wrapper .banner_item a {
+       background-color: #43cb83;
+   }
+   .banner .banner_wrapper .banner_item a:hover {
+       background-color: #5a6e79;
+   }
+   
+   /* department */
+   .department {
+       padding: 0px 0;
+   }
+   .department .section_header p {
+       padding: 25px 0px;
+   }
+   .department .departmet_wrapper .department_item {
+       margin-top: 20px;
+   }
+   
+   /* about */
+   .about .about_Cercle {
+     display: none;
+   }
+   .about .about_wrapper .about_right {
+       padding-left: 0px;
+       padding-top: 20px;
+   }
+   .about_wrapper {
+       padding-top: 50px;
+   }
+   /* apply */
+   .apply .apply_wrapper .apply_right .apply_card h4 {
+       font-size: 26px;
+       letter-spacing: 8px;
+   }
+   .apply .apply_wrapper .apply_right .apply_card form label {
+       font-size: 11px;
+   }
+   .apply .apply_wrapper .apply_right .apply_card .info {
+       display: list-item;
+   }
+   .call {
+       padding-top: 20px;
+   }
+   .apply_left {
+       display: none;
+   }
+   /* news */
+   .news .news_wrapper {
+       padding: 30px 0;
+   }
+   
+   /* footer */
+   .footer .footer_wrapper h3 {
+       padding-top: 15px;
+   }  
+   
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){ 
+    /*header  */
+    .header {
+       background-color: #43cb8272;
+       padding: 10px 0;
+   }
+   .newclass{
+       background-color: #7fe6af;
+       padding: 10px 0;
+   }
+   /* banner */
+   .banner {
+       background-position: center;
+   }
+   .banner .banner_wrapper .banner_item p {
+       color: black;
+   }
+   .banner .banner_wrapper {
+	padding: 220px 0 170px 0;
+}
+   .banner .banner_wrapper .banner_item a {
+       background-color: #43cb83;
+   }
+   .banner .banner_wrapper .banner_item a:hover {
+       background-color: #5a6e79;
+   }
+   
+   /* department */
+   .department {
+       padding: 0px 0;
+   }
+   .department .section_header p {
+       padding: 25px 0px;
+   }
+   .department .departmet_wrapper .department_item {
+       margin-top: 20px;
+   }
+   
+   /* about */
+   .about .about_Cercle {
+     display: none;
+   }
+   .about .about_wrapper .about_right {
+       padding-left: 0px;
+       padding-top: 20px;
+   }
+   .about_wrapper {
+       padding-top: 50px;
+   }
+   /* apply */
+   .apply .apply_wrapper .apply_right .apply_card h4 {
+       font-size: 26px;
+       letter-spacing: 8px;
+   }
+   .apply .apply_wrapper .apply_right .apply_card form label {
+       font-size: 11px;
+   }
+   .apply .apply_wrapper .apply_right .apply_card .info {
+       display: list-item;
+   }
+   .call {
+       padding-top: 20px;
+   }
+   /* news */
+   .news .news_wrapper {
+       padding: 30px 0;
+   }
+   
+   /* footer */
+   .footer .footer_wrapper h3 {
+       padding-top: 15px;
+   }  
+   .footer .footer_wrapper .search_section form .search_btn a {
+	padding: 13px 0px;
+}
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px){  
+ /* footer*/
+ .footer .footer_wrapper .search_section form .search_btn a {
+	padding: 13px 15px;
+}
+
+/* cercel */
+.about .about_Cercle {
+    left: -40%;
+  }
+
+
+}

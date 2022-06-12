@@ -1,0 +1,78 @@
+.news{
+    padding-bottom: 140px;
+     .news_wrapper{
+         border-bottom: 1px solid #eff0f3;
+         h4{
+            font-family: $monstar;
+            font-size: 40px;
+            font-weight: 700;
+            color: $biscuit;
+            line-height: 56px;
+         }
+         p{
+            font-family: $worksans;
+            font-size: 16px;
+            font-weight: 400;
+            color: $text;
+            line-height: 28px;
+            padding-right: 50px;
+            padding-top: 20px;
+         }
+         a{
+            padding: 15px 38px;
+            background-color: $biscuit;
+            font-size: 14px;
+            color: $white;
+            font-weight: 400;
+            font-family: $worksans; 
+            border-radius: 30px;
+        }
+     }
+     .news_card{
+          .news_item{
+              padding-top: 80px;
+              padding-right: 50px;
+               h4{
+                font-family: $monstar;
+                font-size: 40px;
+                font-weight: 700;
+                color: $black;
+                line-height: 56px;
+               }
+               p{
+                font-family: $worksans;
+                font-size: 16px;
+                font-weight: 400;
+                color: $text;
+                line-height: 28px;
+                padding-top: 20px;
+             }
+
+             .item_info{
+                 display: flex;
+                 align-items: center;
+                 justify-content: space-between;
+                 ul{
+                     li{
+                         display: inline-block;
+                         padding-right: 40px;
+                         a{
+                            font-size: 20px;
+                            color: $text;
+                            span{
+                                font-family: $worksans;
+                                font-size: 16px;
+                            }
+                         }
+                     }
+                 }
+                 h6{
+                    font-family: $worksans;
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: $text;
+                 }
+             }
+          }
+     }
+}

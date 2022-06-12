@@ -1,0 +1,113 @@
+.about{
+    padding-bottom: 100px;
+    position: relative;
+    .about_Cercle{
+        height: 1000px;
+        width: 900px;
+        border: 145px solid #ebf7fb;
+        border-radius: 50%;
+        position: absolute;
+        top: -45%;
+        left: -15%;
+        z-index: -1;
+    }
+    .about_wrapper{
+           .about_left{
+               position: relative;
+               .round_attached{
+                   position: absolute;
+                   left: -30%;
+                   top: 50%;
+                   transform: translateY(-50%);
+               }
+              .left_img{
+                position: relative;
+                &::after{
+                    position: absolute;
+                    content: '';
+                    top: 50%;
+                    left: 50%;
+                    height: 520px;
+                    width: 100%;
+                    border: 16px solid $white;
+                    border-radius: 50%;
+                    transform: translate(-50%,-50%);
+                  }
+                  &::before{
+                    position: absolute;
+                    content: '';
+                    top: 50%;
+                    left: 50%;
+                    height: 550px;
+                    width: 105%;
+                    border: 18px solid #ebf7fb;
+                    border-radius: 50%;
+                    transform: translate(-50%,-50%);
+
+                  }
+                   img{
+                       height: 510px;
+                       width: 100%;
+                       border-radius: 50%;
+                       margin: 0 auto;
+                   }
+                   .play{
+                       text-align: center;
+                       height: 100px;
+                        width: 100px;
+                        border-radius: 50%;
+                        background-color: $biscuit;
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                       a{
+                        i{
+                            font-size: 50px;
+                            color: $white;
+                            line-height: 100px;
+                        }
+                       }
+                   }
+              }
+           }
+           .about_right{
+               padding-left: 50px;
+               h4{
+                font-family: $monstar;
+                font-size: 40px;
+                font-weight: 700;
+                color: $black;
+                line-height: 56px;
+               }
+               p{
+                font-family: $worksans;
+                font-size: 18px;
+                font-weight: 400;
+                color: $text;
+                line-height: 26px;
+                padding-top: 20px;
+               }
+               .about_counter{
+                      display: flex;
+                      justify-content: space-evenly;
+                      padding-top: 40px;
+                   .counter_item{
+                       h5{
+                        font-family: $monstar;
+                        font-size: 40px;
+                        font-weight: 700;
+                        color: $biscuit;
+                       }
+                       h6{
+                        font-family: $monstar;
+                        font-size: 18px;
+                        font-weight: 500;
+                        color: $biscuit;
+                        padding-top: 10px;
+                       }
+                   }
+               }
+           }
+    }
+}

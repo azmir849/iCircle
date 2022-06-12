@@ -1,0 +1,129 @@
+.apply{
+    margin: 100px 0 200px 0;
+    background-image: url(../images/signin_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 170px 0;
+      .apply_wrapper{
+        position: relative;
+          .apply_left{
+              h4{
+                font-family: $monstar;
+                font-size: 18px;
+                font-weight: 400;
+                color: $black;
+                text-transform: uppercase;
+                span{
+                    color: $red;
+                }
+              }
+              h5{
+                font-family: $monstar;
+                font-size: 40px;
+                font-weight: 700;
+                color: $black;
+                padding-top: 10px;
+                line-height: 56px;
+              }
+          }
+          .apply_right{
+              .apply_form{
+                .apply_card{
+                    background-color: $white;
+                    box-shadow: 1px 1.732px 20px 0px rgba(0,0,0,0.2);
+                    padding: 50px 60px;
+                    position: absolute;
+                    right: 0;
+                    top: 50%;
+                    transform: translateY(-50%);
+                     h4{
+                      font-family: $monstar;
+                      font-size: 35px;
+                      font-weight: 400;
+                      color: $black; 
+                      letter-spacing: 9px; 
+                     }
+                 form{
+                     padding-top: 10px;
+                  .form_control{
+                      display: block;
+                      width: 100%;
+                      height: 38px;
+                      padding:23px 10px;
+                      background-color: transparent;
+                      background-clip: padding-box;
+                      border: none;
+                      border-bottom: 1px solid #d6e4ed;
+                      transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+                      -webkit-transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+                      -moz-transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+                      -ms-transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+                      -o-transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+                      &:focus{
+                         outline: 0;
+                     } 
+                      &::placeholder{
+                          font-size: 14px;
+                          color: #86959d;
+                          font-weight: 500;
+                          font-family: $worksans; 
+                      }
+                  } 
+                  label{
+                      font-size: 14px;
+                      color: $text;
+                      font-weight: 400;
+                      font-family: $worksans; 
+                  }
+                 }
+                 .info{
+                     margin-top: 40px;
+                     display: flex;
+                     justify-content: space-between;
+                     align-items: center;
+                  .apply_btn{
+                      a{
+                          padding: 15px 38px;
+                          background-color: $biscuit;
+                          font-size: 14px;
+                          color: $white;
+                          font-weight: 400;
+                          font-family: $worksans; 
+                          border-radius: 30px;
+                      }
+                  }
+                  .call{
+                      h6{
+                       font-size: 16px;
+                       color: $text;
+                       font-weight: 400;
+                       font-family: $worksans;   
+                      }
+                      h5{
+                       font-size: 20px;
+                       color: $text;
+                       font-weight: 700;
+                       font-family: $worksans;   
+                      }   
+                   }
+                 }
+                 .signin_link{
+                     padding-top: 20px;
+                  a{
+                     font-size: 16px;
+                     color: $text;
+                     font-weight: 500;
+                     font-family: $worksans;  
+                     border-bottom: 1px dashed $text;  
+                     padding:5px 0;
+                     &:hover{
+                         color: $black;
+                     }
+                  }
+              }
+                }
+              }
+          }
+      }
+}

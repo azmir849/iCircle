@@ -1,0 +1,40 @@
+.banner{
+    //  .about_Cercle{
+    //     height: 1000px;
+    //     width: 1000px;
+    //     border: 145px solid #ebf7fb;
+    //     border-radius: 50%;
+    //     position: absolute;
+    //     top: 15%;
+    //     right: 0;
+    //     z-index:-1;
+    // }
+    .banner_wrapper{
+    background-image: url(../images/bannere2.png);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: contain;
+        padding: 300px 0;
+           .banner_item{
+                h4{
+                    font-family: $monstar;
+                    font-size: 40px;
+                    font-weight: 700;
+                    color: $biscuit;
+                    line-height: 56px;
+                }
+                p{
+                    font-family: $worksans;
+                    font-size: 18px;
+                    font-weight: 400;
+                    color: black;
+                    line-height: 26px;
+                    padding: 28px 50px 28px 0;
+                }
+                a{
+                    @include button;
+                }
+           }
+    }
+
+}
