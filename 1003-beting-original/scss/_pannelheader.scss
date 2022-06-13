@@ -1,0 +1,120 @@
+.sideBar{
+    width: 270px;
+    background-color: #454545;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    .logo{
+        background-color: #333333;
+        padding: 30px 0;
+        text-align: center;
+        img{
+            width: 200px;
+        }
+    }
+    .sideBar_List{
+        ul{
+            padding-left: 40px;
+            padding-top: 40px;
+            li{
+                padding-bottom: 20px;
+              a{
+                  font-size: 18px;
+                  color: $white;
+                  font-weight: 400;
+                  &:hover{
+                      color: #ffff00;
+                  }
+              }
+            }
+        }
+    }
+    .signOut_btn{
+        padding-left: 40px;
+        padding-top: 40px;
+        a{
+            font-size: 18px;
+            color: $white;
+            font-weight: 600;
+            padding: 12px 25px;
+            background-color: #ff0101;
+            border-radius: 7px;
+            &:hover{
+                background-color: #d01b1b;
+            }
+        }
+    }
+}
+
+.DashedBoard_header{
+   background-color: $primaryColor;
+   margin-left: 270px;
+   .header_wrapper{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 10px 40px;
+       .item1{
+           h6{
+               font-size: 19px;
+               font-weight: 500;
+               color: #333333;
+               i{
+                   color: red;
+                   padding-right: 10px;
+               }
+           }
+       }
+       .item2{
+        h6{
+            font-size: 18px;
+            font-weight: 500;
+            color: #333333;
+            span{
+                color: red;
+            }
+        }
+    }
+    .item3{
+        ul{
+            li{
+                display: inline-block;
+                font-size: 16px;
+                font-weight: 500;
+                color: #333333;
+                span{
+                    color: red;
+                    font-size: 19px;
+                    padding-right: 10px;
+                }
+            }
+        }
+    }
+    .item4{
+        display: flex;
+        align-items: center;
+        .profileImg{
+            img{
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+            }
+        }
+.profileDetails{
+    padding-left: 15px;
+          h5{
+            font-size: 19px;
+            font-weight: 500;
+            color: #333333; 
+            line-height: 28px;
+          }
+          h6{
+            font-size: 15px;
+            font-weight: 400;
+            color: #686666; 
+            line-height: 8px;          }
+        }
+    }
+   }
+}
