@@ -1,0 +1,172 @@
+.story{
+      padding-bottom: 70px;
+      background-image: url(../images/story_bgg.png);
+      z-index: -1;
+      position: relative;
+      .section_edit{
+        position: absolute;
+        right: 50px;
+        ul{
+            li{
+                display: inline-block;
+                padding: 0 10px;
+                a{
+                    font-size: 18px;
+                    color: #969696;
+                }
+            }
+        }
+    }
+    .headerSection{
+        h5{
+            font-size: 35px;
+            color: $black;
+            font-weight: 500;
+            line-height: 45px;
+            font-family: $robot;
+            display: inline-block;
+            border-bottom: 1px solid $primaryColor;
+            padding: 10px 0;
+            span{
+                color: $primaryColor;
+            }
+        }
+    }
+    .story_wrapper{
+        padding-top: 70px;
+        position: relative;
+        &::after{
+            position: absolute;
+            content: '';
+            height: 98%;
+            width: 2px;
+            background-color: black;
+            top: 80px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+          .story_wrap{
+                .story_title{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    h4{
+                        font-size: 22px;
+                        color: $primaryColor;
+                        font-weight: 600;
+                        line-height:  30px; 
+                    }
+                    h5{
+                        font-size: 18px;
+                        color: $black;
+                        font-weight: 400;
+                        line-height:  30px;
+                        font-family: $robot; 
+                    }
+                }
+                .story_img{
+                   img{
+                       width: 100%;
+                   }
+                }
+                    p{
+                        font-size: 15px;
+                        color: $black;
+                        font-weight: 400;
+                        line-height: 30px; 
+                        padding: 20px 0;
+                     } 
+          }
+          .margin_top{
+            margin-top: 200px ;
+        }  
+        .margin_bottom{
+            margin-top: -200px ;
+        } 
+        .story_icon1{
+            height: 40px;
+            width: 40px;
+            background-color: $primaryColor;
+            border-radius: 50%;
+            text-align: center;
+            position: absolute;
+            left: 50%;
+            top: 40px;
+            transform: translateX(-50%);
+            z-index: 1;
+            i{
+                font-size: 20px;
+                color: $white;
+                line-height: 40px;
+            }
+        }
+        .story_icon2{
+            height: 40px;
+            width: 40px;
+            background-color: $primaryColor;
+            border-radius: 50%;
+            text-align: center;
+            position: absolute;
+            left: 50%;
+            bottom: -55px;
+            transform: translateX(-50%);
+            z-index: 1;
+            i{
+                font-size: 18px;
+                color: $white;
+                line-height: 40px;
+            }
+        }
+        .story_icon3{
+            height: 40px;
+            width: 40px;
+            background-color: $primaryColor;
+            border-radius: 50%;
+            text-align: center;
+            position: absolute;
+            left: 50%;
+            bottom: 20%;
+            transform: translateX(-50%);
+            z-index: 1;
+            i{
+                font-size: 18px;
+                color: $white;
+                line-height: 40px;
+            }
+        }
+        .story_icon4{
+            height: 40px;
+            width: 40px;
+            background-color: $primaryColor;
+            border-radius: 50%;
+            text-align: center;
+            position: absolute;
+            left: 50%;
+            bottom: 45%;
+            transform: translateX(-50%);
+            z-index: 1;
+            i{
+                font-size: 18px;
+                color: $white;
+                line-height: 40px;
+            }
+        }
+        .story_icon5{
+            height: 40px;
+            width: 40px;
+            background-color: $primaryColor;
+            border-radius: 50%;
+            text-align: center;
+            position: absolute;
+            left: 50%;
+            top: 20%;
+            transform: translateX(-50%);
+            z-index: 1;
+            i{
+                font-size: 18px;
+                color: $white;
+                line-height: 40px;
+            }
+        }
+    }
+}

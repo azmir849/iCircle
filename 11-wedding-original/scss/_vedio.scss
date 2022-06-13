@@ -1,0 +1,36 @@
+.vedio{
+     .vedio_wrapper{
+           .vedio_item{
+               position: relative;
+                img{
+                    width: 100%;
+                    max-height:550px;
+                    height: 550px;
+                    border-radius: 10px;
+                }
+                .vedio_overly{
+                    position: absolute;
+                    top:0;
+                    left: 0;
+                    height: 100%;
+                    width: 100%;
+                    background-color: rgba(0,0,0,0.3);
+                    .play_btn{
+                         position: absolute;
+                         top:50%;
+                         left: 50%;
+                         transform: translate(-50%,-50%);
+                         cursor: pointer;
+                        i{
+                            font-size: 70px;
+                            color: $white;
+                            &:hover{
+                                color: rgb(171, 166, 166);
+                            }
+    
+                        }
+                    }
+                }
+           }
+     }
+}

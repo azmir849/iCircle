@@ -1,0 +1,83 @@
+.guest{
+    padding-bottom: 80px;
+    .headerSection{
+        h5{
+            font-size: 35px;
+            color: $black;
+            font-weight: 500;
+            font-family: $robot;
+            line-height: 45px;
+            display: inline-block;
+            border-bottom: 1px solid $primaryColor;
+            padding: 10px 0;
+            span{ 
+                color: $primaryColor; 
+            } 
+        } 
+    }
+    .guest_wrapper{
+        padding-top: 70px;
+        .guest_slider{
+            position: relative;
+            .cardPrev{
+                height: 50px;
+                width: 50px;
+                background-color: $primaryColor;
+                color: $white;
+                font-size: 30px;
+                border-radius: 50%;
+                text-align: center;
+                line-height: 50px;
+                position: absolute;
+                top: 50%;
+                left: -5%;
+                transform: translateY(-50%);
+                &:hover{
+                    background-color: #115a9f;
+                }
+
+            }
+            .cardNext{
+                height: 50px;
+                width: 50px;
+                background-color: $primaryColor;
+                color: $white;
+                font-size: 30px;
+                border-radius: 50%;
+                text-align: center;
+                line-height: 50px;
+                position: absolute;
+                top: 50%;
+                right: -5%;
+                transform: translateY(-50%);
+                &:hover{
+                    background-color: #115a9f;
+                }
+
+            }
+            .guest_wrap{
+                padding: 15px  10px 10px 10px;
+                background-color: white;
+                box-shadow: 1px 1.732px 20px 0px rgba(0,0,0,0.2); 
+                border-radius: 5px;
+                margin: 10px;
+                img{
+                    width: 100%;
+                    height: 220px;
+                    max-height: 220px;
+                }
+                .guest_text{
+                    h4{
+                        font-size: 20px;
+                        color: black; 
+                        font-weight: 500;
+                        font-family: $robot;
+                        text-transform: uppercase;
+                        padding-top: 10px;
+                        
+                    }
+                }
+            }
+        }
+    }
+}

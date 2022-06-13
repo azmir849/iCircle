@@ -1,0 +1,87 @@
+.about{
+    padding: 80px 0;
+    position: relative;
+    .section_edit{
+        position: absolute;
+        right: 50px;
+        ul{
+            li{
+                display: inline-block;
+                padding: 0 10px;
+                a{
+                    font-size: 18px;
+                    color: #969696;
+                }
+            }
+        }
+    }
+    .headerSection{
+        h5{
+            font-size: 35px;
+            color: $black;
+            font-weight: 500;
+            line-height: 45px;
+            font-family: $robot;
+            display: inline-block;
+            border-bottom: 1px solid $primaryColor;
+            padding: 10px 0;
+            span{
+                color: $primaryColor;
+            }
+        }
+        p{
+           font-size: 15px; 
+           color: $text;
+           font-weight: 400;
+           line-height: 30px; 
+           padding: 20px 250px;
+        }
+    }
+    .about_wrapper{
+        padding-top: 50px;
+          .about_wrap{
+               h3{
+                   font-size: 28px;
+                   color: $black;
+                   font-weight: 600;
+                   line-height: 32px;
+                   font-family: $robot; 
+               }
+               .nicname{
+                   font-family: $playfire; 
+                   color: $primaryColor;
+               }
+               p{
+                   font-size: 16px;
+                   color: $text;
+                   font-weight: 400;
+                   line-height: 26px; 
+                   padding: 10px 0 25px 0;
+                   font-family: $robot;
+                }
+               .reademore_btn{
+                   a{
+                       font-size: 16px;
+                       color: $white;
+                       font-weight: 500;
+                       padding: 8px 20px;
+                       border-radius: 6px;
+                       border: 1px solid transparent;
+                       background-color: $primaryColor;
+                       &:hover{
+                           background-color: transparent;
+                           color: $black;
+                           border: 1px solid $black;
+                       }
+
+                   }
+               }
+              img{ 
+                  width: 100%;
+                  height: 330px;
+                  max-height: 330px;
+                  border-radius: 10px;
+              }
+          }
+    }
+}

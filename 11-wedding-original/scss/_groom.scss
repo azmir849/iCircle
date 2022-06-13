@@ -1,0 +1,68 @@
+.groom{
+    padding-bottom: 80px;
+    position: relative;
+    .section_edit{
+        position: absolute;
+        right: 50px;
+        ul{
+            li{
+                display: inline-block;
+                padding: 0 10px;
+                a{
+                    font-size: 18px;
+                    color: #969696;
+                }
+            }
+        }
+    }
+    .headerSection{
+        h5{
+            font-size: 35px;
+            color: $black;
+            font-weight: 500;
+            line-height: 45px;
+            font-family: $robot;
+            display: inline-block;
+            border-bottom: 1px solid $primaryColor;
+            padding: 10px 0;
+            span{
+                color: $primaryColor;
+            }
+        }
+        p{
+           font-size: 15px;
+           color: $text;
+           font-weight: 400;
+           line-height: 30px; 
+           padding: 20px 250px;
+        }
+    }
+    .groom_wrapper{
+        padding-top:50px ;
+           .groom_wrap{
+              img {
+                width: 100%;
+                max-height: 360px;
+                min-height: 360px;
+                border-radius: 20px;
+            }
+                 .grrom_text{
+                     padding-top: 20px;
+                     h4{
+                        font-size: 24px;
+                        color: black;
+                        font-weight: 500;
+                        font-family: $robot;
+                     }
+                     h5{
+                        font-size: 20px;
+                        color: $primaryColor;
+                        font-weight: 500;
+                        font-family: $robot;
+                        letter-spacing: 1px;
+                        text-transform: uppercase;
+                     }
+                 }
+           }
+    }
+}

@@ -1,0 +1,1006 @@
+@media (min-width: 320px) and (max-width: 479.98px){     
+/*header  section */
+	.banner_main .banner_eliment .banner_content .content_item h4 {
+		font-size: 35px;
+	}
+	.banner_main .banner_slider .banner1 .banner_wrapper {
+		padding-left: 0px;
+	}
+	.banner_main .banner_slider .banner1 .banner_wrapper .banner_content .content_item h4 {
+		font-size: 38px;
+	}
+	.banner_main .banner_slider .next {
+		display: none !important;
+	}
+
+	.banner_main .banner_slider .banner2 .banner_wrapper {
+		padding-left: 0px;
+	}
+	.banner_main .banner_slider .banner2 .banner_wrapper .banner_content .content_item h4 {
+		font-size: 38px;
+	}
+	.banner_main .banner_slider .banner1 .banner_wrapper .banner_content .content_item h5 {
+		font-size: 25px;
+		padding: 20px 0;
+	}
+
+	.banner_main .banner_slider .banner2 .banner_wrapper .banner_content .content_item h5 {
+		font-size: 25px;
+		padding: 20px 0;
+	}
+	.banner_main .banner_slider .banner1 .banner_wrapper .banner_content .content_item p {
+		font-size: 16px;
+	}
+	.banner_main .banner_slider .banner2 .banner_wrapper .banner_content .content_item p {
+		font-size: 16px;
+	}
+/* Mob Of Can */
+.offcanvas-end {
+	width: 270px;
+}
+/* About Section */
+.about .headerSection p {
+	font-size: 14px;
+	padding: 20px 0px;
+}
+.about {
+	padding: 70px 0;
+}
+.about .about_wrapper {
+	padding-top: 0px;
+}
+.bride .headerSection p {
+	margin-top: 3px;
+	font-size: 14px;
+	padding: 20px 0px;
+}
+.bride .bride_wrapper {
+	padding-top: 0px;
+}
+.bride {
+	padding-bottom: 70px;
+}
+
+.vedio .vedio_wrapper .vedio_item img {
+	max-height: 460px;
+	height: 460px;
+}
+.magazine .magazine_img img {
+	width: 100%;
+	max-height: 500px;
+	height: 500px;
+}
+.guest {
+	padding-bottom: 60px;
+}
+
+.gift .gift_wrapper {
+	padding-top: 10px;
+}
+.about_wrap {
+	margin-top: 30px;
+}
+/* groom Section */
+.groom .headerSection p {
+	font-size: 14px;
+	padding: 20px 0px;
+}
+.bride .headerSection p {
+	font-size: 14px;
+	padding: 20px 0px;
+}
+.groom_wrap {
+	margin-top: 35px;
+}
+.groom .groom_wrapper {
+	padding-top: 20px;
+}
+/* Bride Section */
+.bride_wrap {
+	margin-top: 35px;
+}
+.bride .bride_wrapper {
+	padding-top: 20px;
+}
+
+/* story Section */
+.story .story_wrapper::after {
+	 display: none;
+}
+.story .story_wrapper .story_icon2 {
+	display: none;
+}
+.story .story_wrapper .story_icon3 {
+	display: none;
+}
+.story .story_wrapper .story_icon4 {
+	display: none;
+}
+.story .story_wrapper .story_icon5  {
+	display: none;
+}
+.story .story_wrapper .margin_top{
+	margin-top: 0px;
+}
+.story .story_wrapper .margin_bottom{
+	margin-top: 0px;
+}
+.story .story_wrapper .story_wrap p{
+	font-size: 14px;
+}
+.story {
+	padding-bottom: 0px;
+}
+/* gallery Section */
+.gallery .gallery_wrapper .gallery_wrap .gallery_item .item {
+	margin-top: 30px;
+}
+
+/* Magazine section */
+.magazine .headerSection p {
+	font-size: 14px;
+	padding: 20px 0px;
+}
+.magazine {
+	padding: 70px 0;
+}
+/* gift Section */
+.gift .headerSection p {
+	font-size: 14px;
+	padding: 20px 0px;
+}
+.gift .gift_wrapper .gift_wrap {
+	margin-top: 30px;
+}
+/* location section */
+.location .headerSection p {
+	font-size: 20px;
+	padding: 20px 0px;
+}
+
+
+
+
+
+/* Common Clases */
+.margin_t40{
+	margin-top: 40px;
+}
+.margin_t30{
+	margin-top: 30px;
+}
+
+
+
+
+
+
+
+}
+@media (min-width: 480px) and (max-width: 575.98px){     
+	/*header  section */
+		.banner_main .banner_eliment .banner_content .content_item h4 {
+			font-size: 35px;
+		}
+		.banner_main .banner_slider .banner1 .banner_wrapper {
+			padding-left: 0px;
+		}
+		.banner_main .banner_slider .banner1 .banner_wrapper .banner_content .content_item h4 {
+			font-size: 38px;
+		}
+		.banner_main .banner_slider .next {
+			display: none !important;
+		}
+	
+		.banner_main .banner_slider .banner2 .banner_wrapper {
+			padding-left: 0px;
+		}
+		.banner_main .banner_slider .banner2 .banner_wrapper .banner_content .content_item h4 {
+			font-size: 38px;
+		}
+		.banner_main .banner_slider .banner1 .banner_wrapper .banner_content .content_item h5 {
+			font-size: 25px;
+			padding: 20px 0;
+		}
+	
+		.banner_main .banner_slider .banner2 .banner_wrapper .banner_content .content_item h5 {
+			font-size: 25px;
+			padding: 20px 0;
+		}
+		.banner_main .banner_slider .banner1 .banner_wrapper .banner_content .content_item p {
+			font-size: 16px;
+		}
+		.banner_main .banner_slider .banner2 .banner_wrapper .banner_content .content_item p {
+			font-size: 16px;
+		}
+	/* Mob Of Can */
+	.offcanvas-end {
+		width: 270px;
+	}
+	/* About Section */
+	.about .headerSection p {
+		font-size: 14px;
+		padding: 20px 0px;
+	}
+	.about {
+		padding: 70px 0;
+	}
+	.about .about_wrapper {
+		padding-top: 0px;
+	}
+	.bride .headerSection p {
+		margin-top: 3px;
+		font-size: 14px;
+		padding: 20px 0px;
+	}
+	.bride .bride_wrapper {
+		padding-top: 0px;
+	}
+	.bride {
+		padding-bottom: 70px;
+	}
+	
+	.vedio .vedio_wrapper .vedio_item img {
+		max-height: 460px;
+		height: 460px;
+	}
+	.magazine .magazine_img img {
+		width: 100%;
+		max-height: 500px;
+		height: 500px;
+	}
+	.guest {
+		padding-bottom: 60px;
+	}
+	
+	.gift .gift_wrapper {
+		padding-top: 10px;
+	}
+	.about_wrap {
+		margin-top: 30px;
+	}
+	/* groom Section */
+	.groom .headerSection p {
+		font-size: 14px;
+		padding: 20px 0px;
+	}
+	.bride .headerSection p {
+		font-size: 14px;
+		padding: 20px 0px;
+	}
+	.groom_wrap {
+		margin-top: 35px;
+	}
+	.groom .groom_wrapper {
+		padding-top: 20px;
+	}
+	/* Bride Section */
+	.bride_wrap {
+		margin-top: 35px;
+	}
+	.bride .bride_wrapper {
+		padding-top: 20px;
+	}
+	
+	/* story Section */
+	.story .story_wrapper::after {
+		 display: none;
+	}
+	.story .story_wrapper .story_icon2 {
+		display: none;
+	}
+	.story .story_wrapper .story_icon3 {
+		display: none;
+	}
+	.story .story_wrapper .story_icon4 {
+		display: none;
+	}
+	.story .story_wrapper .story_icon5  {
+		display: none;
+	}
+	.story .story_wrapper .margin_top{
+		margin-top: 0px;
+	}
+	.story .story_wrapper .margin_bottom{
+		margin-top: 0px;
+	}
+	.story .story_wrapper .story_wrap p{
+		font-size: 14px;
+	}
+	.story {
+		padding-bottom: 0px;
+	}
+	/* gallery Section */
+	.gallery .gallery_wrapper .gallery_wrap .gallery_item .item {
+		margin-top: 30px;
+	}
+	
+	/* Magazine section */
+	.magazine .headerSection p {
+		font-size: 14px;
+		padding: 20px 0px;
+	}
+	.magazine {
+		padding: 70px 0;
+	}
+	/* gift Section */
+	.gift .headerSection p {
+		font-size: 14px;
+		padding: 20px 0px;
+	}
+	.gift .gift_wrapper .gift_wrap {
+		margin-top: 30px;
+	}
+	/* location section */
+	.location .headerSection p {
+		font-size: 20px;
+		padding: 20px 0px;
+	}
+	
+	
+	
+	
+	
+	/* Common Clases */
+	.margin_t40{
+		margin-top: 40px;
+	}
+	.margin_t30{
+		margin-top: 30px;
+	}
+	
+	
+	
+	
+	
+	
+	
+}
+@media (min-width: 576px) and (max-width: 767.98px){     
+	/*header  section */
+		.banner_main .banner_eliment .banner_content .content_item h4 {
+			font-size: 35px;
+		}
+		.banner_main .banner_slider .banner1 .banner_wrapper {
+			padding-left: 0px;
+		}
+		.banner_main .banner_slider .banner1 .banner_wrapper .banner_content .content_item h4 {
+			font-size: 38px;
+		}
+		.banner_main .banner_slider .next {
+			display: none !important;
+		}
+	
+		.banner_main .banner_slider .banner2 .banner_wrapper {
+			padding-left: 0px;
+		}
+		.banner_main .banner_slider .banner2 .banner_wrapper .banner_content .content_item h4 {
+			font-size: 38px;
+		}
+		.banner_main .banner_slider .banner1 .banner_wrapper .banner_content .content_item h5 {
+			font-size: 25px;
+			padding: 20px 0;
+		}
+	
+		.banner_main .banner_slider .banner2 .banner_wrapper .banner_content .content_item h5 {
+			font-size: 25px;
+			padding: 20px 0;
+		}
+		.banner_main .banner_slider .banner1 .banner_wrapper .banner_content .content_item p {
+			font-size: 16px;
+		}
+		.banner_main .banner_slider .banner2 .banner_wrapper .banner_content .content_item p {
+			font-size: 16px;
+		}
+	/* Mob Of Can */
+	.offcanvas-end {
+		width: 270px;
+	}
+	/* About Section */
+	.about .headerSection p {
+		font-size: 14px;
+		padding: 20px 0px;
+	}
+	.about_wrap {
+		margin-top: 40px;
+	}
+	/* groom Section */
+	.groom .headerSection p {
+		font-size: 14px;
+		padding: 20px 0px;
+	}
+	.bride .headerSection p {
+		font-size: 14px;
+		padding: 20px 0px;
+	}
+	.groom_wrap {
+		margin-top: 35px;
+	}
+	.groom .groom_wrapper {
+		padding-top: 20px;
+	}
+	/* Bride Section */
+	.bride_wrap {
+		margin-top: 35px;
+	}
+	.bride .bride_wrapper {
+		padding-top: 20px;
+	}
+	
+	/* story Section */
+	.story .story_wrapper::after {
+		 display: none;
+	}
+	.story .story_wrapper .story_icon2 {
+		display: none;
+	}
+	.story .story_wrapper .story_icon3 {
+		display: none;
+	}
+	.story .story_wrapper .story_icon4 {
+		display: none;
+	}
+	.story .story_wrapper .story_icon5  {
+		display: none;
+	}
+	.story .story_wrapper .margin_top{
+		margin-top: 0px;
+	}
+	.story .story_wrapper .margin_bottom{
+		margin-top: 0px;
+	}
+	.story .story_wrapper .story_wrap p{
+		font-size: 14px;
+	}
+	.story {
+		padding-bottom: 0px;
+	}
+	/* gallery Section */
+	.gallery .gallery_wrapper .gallery_wrap .gallery_item .item {
+		margin-top: 30px;
+	}
+	
+	/* Magazine section */
+	.magazine .headerSection p {
+		font-size: 14px;
+		padding: 20px 0px;
+	}
+	.magazine .magazine_img img {
+		width: 100%;
+		max-height: 600px;
+		height: 750px;
+	}
+	/* gift Section */
+	.gift .headerSection p {
+		font-size: 14px;
+		padding: 20px 0px;
+	}
+	.gift .gift_wrapper .gift_wrap {
+		margin-top: 30px;
+	}
+	/* location section */
+	.location .headerSection p {
+		font-size: 20px;
+		padding: 20px 0px;
+	}
+
+	
+	/* Common Clases */
+	.margin_t40{
+		margin-top: 40px;
+	}
+	.margin_t30{
+		margin-top: 30px;
+	}
+	
+	
+	
+}
+@media (min-width: 768px) and (max-width: 991.98px){     
+	/*header  section */
+		.banner_main .banner_eliment .banner_content .content_item h4 {
+			font-size: 35px;
+		}
+		.banner_main .banner_slider .banner1 .banner_wrapper {
+			padding-left: 0px;
+		}
+		.banner_main .banner_slider .banner1 .banner_wrapper .banner_content .content_item h4 {
+			font-size: 38px;
+		}
+		.banner_main .banner_slider .next {
+			display: none !important;
+		}
+	
+		.banner_main .banner_slider .banner2 .banner_wrapper {
+			padding-left: 0px;
+		}
+		.banner_main .banner_slider .banner2 .banner_wrapper .banner_content .content_item h4 {
+			font-size: 38px;
+		}
+		.banner_main .banner_slider .banner1 .banner_wrapper .banner_content .content_item h5 {
+			font-size: 25px;
+			padding: 20px 0;
+		}
+	
+		.banner_main .banner_slider .banner2 .banner_wrapper .banner_content .content_item h5 {
+			font-size: 25px;
+			padding: 20px 0;
+		}
+		.banner_main .banner_slider .banner1 .banner_wrapper .banner_content .content_item p {
+			font-size: 16px;
+		}
+		.banner_main .banner_slider .banner2 .banner_wrapper .banner_content .content_item p {
+			font-size: 16px;
+		}
+	/* Mob Of Can */
+	.offcanvas-end {
+		width: 270px;
+	}
+	/* About Section */
+	.about .headerSection p {
+		font-size: 14px;
+		padding: 20px 0px;
+	}
+	.about_wrap {
+		margin-top: 40px;
+	}
+	/* groom Section */
+	.groom .headerSection p {
+		font-size: 14px;
+		padding: 20px 0px;
+	}
+	.bride .headerSection p {
+		font-size: 14px;
+		padding: 20px 0px;
+	}
+	.groom_wrap {
+		margin-top: 35px;
+	}
+	.groom .groom_wrapper {
+		padding-top: 20px;
+	}
+	/* Bride Section */
+	.bride_wrap {
+		margin-top: 35px;
+	}
+	.bride .bride_wrapper {
+		padding-top: 20px;
+	}
+	
+	/* story Section */
+	.story .story_wrapper::after {
+		 display: none;
+	}
+	.story .story_wrapper .story_icon2 {
+		display: none;
+	}
+	.story .story_wrapper .story_icon3 {
+		display: none;
+	}
+	.story .story_wrapper .story_icon4 {
+		display: none;
+	}
+	.story .story_wrapper .story_icon5  {
+		display: none;
+	}
+	.story .story_wrapper .margin_top{
+		margin-top: 0px;
+	}
+	.story .story_wrapper .margin_bottom{
+		margin-top: 0px;
+	}
+	.story .story_wrapper .story_wrap p{
+		font-size: 14px;
+	}
+	.story {
+		padding-bottom: 0px;
+	}
+	/* gallery Section */
+	.gallery .gallery_wrapper .gallery_wrap .gallery_item .item {
+		margin-top: 30px;
+	}
+	
+	/* Magazine section */
+	.magazine .headerSection p {
+		font-size: 14px;
+		padding: 20px 0px;
+	}
+	.magazine .magazine_img img {
+		width: 100%;
+		max-height: 600px;
+		height: 750px;
+	}
+	/* gift Section */
+	.gift .headerSection p {
+		font-size: 14px;
+		padding: 20px 0px;
+	}
+	.gift .gift_wrapper .gift_wrap {
+		margin-top: 30px;
+	}
+	.gift .gift_wrapper .gift_wrap img{
+		width: 100px;
+	}
+	.guest .guest_wrapper .guest_slider .cardPrev {
+		z-index: 5;
+	}
+	.wedding .wedding_wrapper .wedding_wrap {
+		padding: 40px 0px;
+	}
+	/* location section */
+	.location .headerSection p {
+		font-size: 20px;
+		padding: 20px 0px;
+	}
+
+	
+	/* Common Clases */
+	.margin_t40{
+		margin-top: 40px;
+	}
+	.margin_t30{
+		margin-top: 30px;
+	}
+	
+	
+	
+}
+@media (min-width: 992px) and (max-width: 1199.98px){     
+	/* navbar Header */
+	.header .header_wrapper .navar_contain {
+		padding: 0 0px;
+	}
+	.header .header_wrapper .navar_contain .nav_list ul li a {
+		font-size: 14px;
+	}
+		/*header  section */
+		.banner_main .banner_eliment .banner_content .content_item h4 {
+			font-size: 35px;
+		}
+		.banner_main .banner_slider .banner1 .banner_wrapper {
+			padding-left: 0px;
+		}
+		.banner_main .banner_slider .banner1 .banner_wrapper .banner_content .content_item h4 {
+			font-size: 38px;
+		}
+		.banner_main .banner_slider .next {
+			display: none !important;
+		}
+	
+		.banner_main .banner_slider .banner2 .banner_wrapper {
+			padding-left: 0px;
+		}
+		.banner_main .banner_slider .banner2 .banner_wrapper .banner_content .content_item h4 {
+			font-size: 38px;
+		}
+		.banner_main .banner_slider .banner1 .banner_wrapper .banner_content .content_item h5 {
+			font-size: 25px;
+			padding: 20px 0;
+		}
+		.content_item {
+			text-align: end;
+			padding-left: 220px;
+		}
+		.banner_main .banner_slider .banner2 .banner_wrapper .banner_content .content_item h5 {
+			font-size: 25px;
+			padding: 20px 0;
+		}
+		.banner_main .banner_slider .banner1 .banner_wrapper .banner_content .content_item p {
+			font-size: 16px;
+		}
+		.banner_main .banner_slider .banner2 .banner_wrapper .banner_content .content_item p {
+			font-size: 16px;
+		}
+		/* header side nav */
+		.banner_main .banner_eliment .sideBar .sidebar_contain .navlist ul li a {
+			font-size: 20px;
+		}
+
+		.banner_main .banner_eliment .sideBar {
+			left: 5px;
+			width: 250px;
+		}
+
+
+
+
+
+
+
+	/* Mob Of Can */
+	.offcanvas-end {
+		width: 270px;
+	}
+	/* About Section */
+	.about .headerSection p {
+		font-size: 14px;
+		padding: 20px 140px;
+	}
+	.about_wrap {
+		margin-top: 40px;
+	}
+	.about .about_wrapper .about_wrap p {
+		font-size: 15px;
+		padding: 10px 0 10px 0;
+	}
+	/* groom Section */
+	.groom .headerSection p {
+		font-size: 14px;
+		padding: 20px 140px;
+	}
+	.bride .headerSection p {
+		font-size: 14px;
+		padding: 20px 140px;
+	}
+	.groom_wrap {
+		margin-top: 35px;
+	}
+	.groom .groom_wrapper {
+		padding-top: 20px;
+	}
+	/* Bride Section */
+	.bride_wrap {
+		margin-top: 35px;
+	}
+	.bride .bride_wrapper {
+		padding-top: 20px;
+	}
+	.bride .bride_wrapper .bride_wrap img {
+		width: 100%;
+		max-height: 380px;
+		min-height: 340px;
+		border-radius: 20px;
+	}
+	.groom .groom_wrapper .groom_wrap img {
+		width: 100%;
+		max-height: 380px;
+		min-height: 340px;
+		border-radius: 20px;
+	}
+	/* story Section */
+
+	.story .story_wrapper .story_wrap p{
+		font-size: 14px;
+	}
+
+	/* gallery Section */
+	.gallery .gallery_wrapper .gallery_wrap .gallery_item .item {
+		margin-top: 30px;
+	}
+	
+	/* Magazine section */
+	.magazine .headerSection p {
+		font-size: 14px;
+		padding: 20px 140px;
+	}
+	.magazine .magazine_img img {
+		width: 100%;
+		max-height: 600px;
+		height: 750px;
+	}
+	/* gift Section */
+	.gift .headerSection p {
+		font-size: 14px;
+		padding: 20px 140px;
+	}
+	.gift .gift_wrapper .gift_wrap {
+		margin-top: 30px;
+	}
+	.gift .gift_wrapper .gift_wrap img{
+		width: 100px;
+	}
+	.guest .guest_wrapper .guest_slider .cardPrev {
+		z-index: 5;
+	}
+	.guest .guest_wrapper .guest_slider .cardNext {
+		display: none !important;
+	}
+	.wedding .wedding_wrapper .wedding_wrap {
+		padding: 40px 0px;
+	}
+	/* location section */
+	.location .headerSection p {
+		font-size: 20px;
+		padding: 20px 0px;
+	}
+
+	
+	
+	
+	
+}
+@media (min-width: 1200px) and (max-width: 1399.98px){     
+	/* navbar Header */
+	.header .header_wrapper .navar_contain {
+		padding: 0 0px;
+	}
+	.header .header_wrapper .navar_contain .nav_list ul li a {
+		font-size: 16px;
+	}
+		/*header  section */
+		.banner_main .banner_eliment .banner_content .content_item h4 {
+			font-size: 35px;
+		}
+		.banner_main .banner_slider .banner1 .banner_wrapper {
+			padding-left: 0px;
+		}
+		.banner_main .banner_slider .banner1 .banner_wrapper .banner_content .content_item h4 {
+			font-size: 38px;
+		}
+		.banner_main .banner_slider .next {
+			display: none !important;
+		}
+	
+		.banner_main .banner_slider .banner2 .banner_wrapper {
+			padding-left: 0px;
+		}
+		.banner_main .banner_slider .banner2 .banner_wrapper .banner_content .content_item h4 {
+			font-size: 38px;
+		}
+		.banner_main .banner_slider .banner1 .banner_wrapper .banner_content .content_item h5 {
+			font-size: 25px;
+			padding: 20px 0;
+		}
+		.content_item {
+			text-align: end;
+			padding-left: 220px;
+		}
+		.banner_main .banner_slider .banner2 .banner_wrapper .banner_content .content_item h5 {
+			font-size: 25px;
+			padding: 20px 0;
+		}
+		.banner_main .banner_slider .banner1 .banner_wrapper .banner_content .content_item p {
+			font-size: 16px;
+		}
+		.banner_main .banner_slider .banner2 .banner_wrapper .banner_content .content_item p {
+			font-size: 16px;
+		}
+		/* header side nav */
+		.banner_main .banner_eliment .sideBar .sidebar_contain .navlist ul li a {
+			font-size: 20px;
+		}
+
+		.banner_main .banner_eliment .sideBar {
+			left: 5px;
+			width: 250px;
+		}
+
+
+
+
+
+
+
+	/* Mob Of Can */
+	.offcanvas-end {
+		width: 270px;
+	}
+	/* About Section */
+	.about .headerSection p {
+		font-size: 14px;
+		padding: 20px 140px;
+	}
+	.about_wrap {
+		margin-top: 40px;
+	}
+	.about .about_wrapper .about_wrap p {
+		font-size: 15px;
+		padding: 10px 0 10px 0;
+	}
+	/* groom Section */
+	.groom .headerSection p {
+		font-size: 14px;
+		padding: 20px 140px;
+	}
+	.bride .headerSection p {
+		font-size: 14px;
+		padding: 20px 140px;
+	}
+	.groom_wrap {
+		margin-top: 35px;
+	}
+	.groom .groom_wrapper {
+		padding-top: 20px;
+	}
+	/* Bride Section */
+	.bride_wrap {
+		margin-top: 35px;
+	}
+	.bride .bride_wrapper {
+		padding-top: 20px;
+	}
+	.bride .bride_wrapper .bride_wrap img {
+		width: 100%;
+		max-height: 380px;
+		min-height: 340px;
+		border-radius: 20px;
+	}
+	.groom .groom_wrapper .groom_wrap img {
+		width: 100%;
+		max-height: 380px;
+		min-height: 340px;
+		border-radius: 20px;
+	}
+	/* story Section */
+
+	.story .story_wrapper .story_wrap p{
+		font-size: 14px;
+	}
+
+	/* gallery Section */
+	.gallery .gallery_wrapper .gallery_wrap .gallery_item .item {
+		margin-top: 30px;
+	}
+	
+	/* Magazine section */
+	.magazine .headerSection p {
+		font-size: 14px;
+		padding: 20px 140px;
+	}
+	.magazine .magazine_img img {
+		width: 100%;
+		max-height: 600px;
+		height: 750px;
+	}
+	/* gift Section */
+	.gift .headerSection p {
+		font-size: 14px;
+		padding: 20px 140px;
+	}
+	.gift .gift_wrapper .gift_wrap {
+		margin-top: 30px;
+	}
+	.gift .gift_wrapper .gift_wrap img{
+		width: 100px;
+	}
+	.guest .guest_wrapper .guest_slider .cardPrev {
+		z-index: 5;
+	}
+
+	.wedding .wedding_wrapper .wedding_wrap {
+		padding: 40px 0px;
+	}
+	/* location section */
+	.location .headerSection p {
+		font-size: 20px;
+		padding: 20px 0px;
+	}
+
+	
+	
+	
+	
+}
+@media (min-width: 1400px) and (max-width: 1599.98px){     
+	.banner_main .banner_slider .banner1 .banner_wrapper {
+		padding-left: 300px;
+	}
+	.banner_main .banner_slider .banner2 .banner_wrapper {
+		padding-left: 300px;
+	}
+	
+	
+}
+    
+@media (min-width: 1600px) and (max-width: 1699.98px){     
+	.banner_main .banner_slider .banner1 .banner_wrapper {
+		padding-left: 200px;
+	}
+	.banner_main .banner_slider .banner2 .banner_wrapper {
+		padding-left: 200px;
+	}
+	
+	.banner_main .banner_eliment .sideBar {
+		width: 270px;
+	}
+	.banner_main .banner_eliment .sideBar .sidebar_contain .navlist ul li a {
+		font-size: 20px;
+	}
+}
+@media (min-width: 1700px) and (max-width: 1799.98px){     
+
+	
+	.banner_main .banner_eliment .sideBar .sidebar_contain .navlist ul li a {
+		font-size: 20px;
+	}
+}

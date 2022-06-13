@@ -1,0 +1,87 @@
+.header{
+    background-color: rgba(255, 255, 255, 0.358);
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999; 
+    opacity: 0;
+    .header_wrapper{
+        .navar_contain{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 50px;
+            .nav_list{
+                ul{
+                    li{
+                        padding: 0 10px;
+                        cursor: pointer;
+                        position: relative;
+                        display: inline-block;
+
+                        a{
+                            font-size: 18px;
+                            color: $white;
+                            font-weight: 500;
+                            span{
+                                padding-right: 5px;
+                                font-size: 18px;
+                            } 
+                            &:hover{
+                                color: $black;
+                            }
+                            
+                        }
+                    }
+                }
+            }
+            .header_search{
+                width: 240px;
+                form{
+                  position: relative;
+                  margin-right: 40px;
+                  .form_control{
+                    display: block;
+                    height: 50px;
+                    padding:23px;
+                    border-radius: 30px;
+                    background-color:#ffffff;
+                    background-clip: padding-box;
+                    border: 1px solid transparent;
+                    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+                    -webkit-transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+                    -moz-transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+                    -ms-transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+                    -o-transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+                    &:focus{
+                       outline: 0;
+                   } 
+                    &::placeholder{
+                        font-size: 16px;
+                        color: #626364;
+                        font-weight: 400; 
+                    }
+                } 
+                  i{
+                    font-size: 21px;
+                    color: $black;
+                    position: absolute;
+                    right:-20px;
+                    top: 50%; 
+                    transform: translateY(-50%);
+                  }
+                }
+            }
+        }
+    }
+}
+.headerNewClass{
+    opacity: 1;
+    background-color: $primaryColor;
+    animation: mymove .9s;
+}
+@keyframes mymove {
+    0%   {top: -50px;}
+    100% {top: 0px;}
+}

@@ -1,0 +1,55 @@
+.wedding{
+    padding: 100px 0;
+    margin-top: 50px ;
+    background-image: url(../images/weddingBg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .headerSection{
+        h5{
+            font-size: 35px;
+            color: $white;
+            font-weight: 500;
+            line-height: 45px;
+            font-family: $robot;
+            display: inline-block;
+            border-bottom: 1px solid $primaryColor;
+            padding: 10px 0;
+            span{
+                color: $primaryColor;
+            }
+        }
+    }
+    .wedding_wrapper{
+        padding-top: 70px;
+          .wedding_wrap{
+                border: 10px solid $white;
+                padding: 40px 20px;
+                height: 500px;
+                max-height: 500px;
+                img{
+                    width: 120px;
+                }
+                .card_text{
+                     h4{
+                        font-size: 28px;
+                        color: $white;
+                        font-weight: 500;
+                        line-height: 35px;
+                        font-family: $robot; 
+                        text-transform: uppercase;
+                        padding-top: 20px;
+                     }
+                     h5{
+                        font-size: 20px;
+                        color: $white;
+                        font-weight: 400;
+                        line-height: 32px;
+                        font-family: $robot; 
+                        padding: 10px 0;
+                        border-bottom: 1px solid $white;
+                     }
+                }
+          }
+    }
+}
