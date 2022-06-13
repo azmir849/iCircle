@@ -1,0 +1,85 @@
+.section-3{
+     .section_header{
+         h5{
+             @include header;
+         }
+     }
+     .sec3_inner{
+         .v_title{
+             padding: 10px 0;
+             h4{
+                 font-size: 24px;
+                 color: $black;
+                 font-weight: 500;
+                 line-height: 32px;
+             }
+         } 
+         .v_title2{
+             h5{
+                font-size: 18px;
+                color: $black;
+                font-weight: 500;
+                line-height: 28px;   
+             }
+         }
+     }
+     .nav{
+       .nav-item{
+           border: 1px solid #999999;
+           width: 50%;
+           text-align: center;
+           .nav-link{
+              font-size: 19px;
+              font-weight: 500;
+              color: $black;
+              margin: 0 auto;
+              border-radius: 0px;
+              padding: 12px 0;
+              cursor: pointer;
+           }
+           .active{
+             color: $white;
+             background-color: $primaryColor;
+
+           }    
+         }
+     }
+     .tab-content{
+           .tab-pane{
+            .nabtab-item{
+                background-color: $bg;
+                display: flex;
+                padding: 7px 10px;
+                border: 1px solid #cfcfcf;
+                .img_wrapper{
+                    display: flex;
+                    justify-content: center;
+                    height: 130px;
+                    width: 50%;
+                    overflow: hidden;
+                img{
+                    max-height: 100%;
+                    max-width: 100%;
+                    &:hover{
+                        transform: scale(1.1);
+                        transition: all linear .3s;
+                    }
+                }
+             }
+              .item_text{
+                  width: 50%;  
+                  padding-right: 10px;
+                h4{
+                    font-size: 18px;
+                    color: $black;
+                    font-weight: 500;
+                    line-height: 26px;
+                    &:hover{
+                        color: $primaryColor;
+                    }
+                }
+              }
+            }
+           }
+     }
+}

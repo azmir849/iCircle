@@ -1,0 +1,146 @@
+.section-4{
+    padding-top: 30px;
+    .section_header{
+        padding-bottom: 20px;
+        a{
+            display: inline-block;
+            font-size: 22px;
+            color: $primaryColor;
+            font-weight: 600;
+            line-height: 30px;
+            &:hover{
+                color: $black;
+            }
+            span{
+                padding-left: 2px;
+                i{
+                    font-size: 20px;
+                    color: red;
+                }
+            }
+
+        }
+    }
+    // Country body
+        .section4_body{
+            .coutry_wrap{
+                border: 1px solid #cfcfcf;
+                width: 100%;
+                background-color: $bg;
+                padding: 10px 10px 5px 10px;
+                .img_wrapper{
+                    display: flex;
+                    justify-content: center;
+                    height: 385px;
+                    overflow: hidden;
+                img{
+                    max-height: 100%;
+                    max-width: 100%;
+                    border-radius: 5px;
+                    &:hover{
+                        transform: scale(1.2);
+                        transition: all linear .5s;
+                    }
+                }
+             }
+             h4{
+                 font-size: 25px;
+                 color: $primaryColor;
+                 font-weight: 500;
+                 padding-top: 15px;
+                 line-height: 38px;
+                 &:hover{
+                     color: black;
+                 }
+             }
+             h5{
+                font-size: 18px;
+                color: #494848;
+                font-weight: 400;
+                line-height: 28px;
+                &:hover{
+                    color: $black;
+                }
+             }
+             p{
+                font-size: 13px;
+                color: $black;
+                font-weight: 400;
+                text-align: end;
+                padding-top: 5px;
+             }
+            }
+            .Country-item{
+                background-color: $bg;
+                display: flex;
+                padding: 7px 10px;
+                border: 1px solid #cfcfcf;
+                .img_wrapper{
+                    display: flex;
+                    justify-content: center;
+                    height: 120px;
+                    width: 50%;
+                    overflow: hidden;
+                img{
+                    max-height: 100%;
+                    max-width: 100%;
+                    &:hover{
+                        transform: scale(1.1);
+                        transition: all linear .5s;
+                    }
+                }
+             }
+              .item_text{
+                  width: 50%;
+                  padding-left: 10px;
+                h4{
+                    font-size: 18px;
+                    color: $black;
+                    font-weight: 500;
+                    line-height: 26px;
+                    &:hover{
+                        color: $primaryColor;
+                    }
+          
+                }
+                p{
+                    font-size: 12px;
+                    color: $black;
+                    font-weight: 400;
+                    text-align: end;
+                 }
+              }
+            }
+            .sec2_inner{
+                border: 1px solid #cfcfcf;
+                padding: 10px 10px 5px 10px;
+                width: 100%;
+                background-color: $bg;
+                .img_wrapper{
+                    display: flex;
+                    justify-content: center;
+                    height: 220px;
+                    overflow: hidden;
+                img{
+                    max-height: 100%;
+                    max-width: 100%;
+                    border-radius: 5px;
+                    &:hover{
+                        transform: scale(1.2);
+                        transition: all linear .5s;
+                    }
+                }
+             }
+             h4{
+                 font-size: 19px;
+                 color: $primaryColor;
+                 font-weight: 500;
+                 padding-top: 10px;
+                 &:hover{
+                     color: $black;
+                 }
+             }
+            }
+        }
+
+}

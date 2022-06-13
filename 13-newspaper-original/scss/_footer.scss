@@ -1,0 +1,95 @@
+.footer{
+    background-color: $primaryColor;
+    padding: 50px 0 20px 0;
+    .footer_wrapper{
+           h4{
+               font-size: 26px;
+               font-weight: 600;
+               color: $white;
+               line-height: 30px;
+               font-family: $font-1;
+           }
+           h5{
+            font-size: 16px;
+            font-weight: 400;
+            color: $white;
+            line-height: 20px;
+            font-family: $font-1;
+        }
+        h6{
+            padding-top: 5px;
+            font-size: 18px;
+            font-weight: 400;
+            color: $white;
+            line-height: 20px;
+            font-family: $font-1;
+        }
+        p{
+            font-size: 16px;
+            font-weight: 400;
+            color: $white;
+            line-height: 18px;
+            font-family: $font-2;
+        }
+        .hotline_number{
+            text-align: center;
+            a{
+                padding: 12px 25px;
+                background-color:#d0232a;
+                font-size: 18px;
+                font-family: $font-1;
+                font-weight: 600;
+                color: $white;
+                border-radius: 35px;
+            }
+        }
+        h3{
+            padding-top: 20px;
+            text-align: center;
+            a{
+                font-size: 20px;
+                color: $white;
+                font-family: $font-1;
+                font-weight: 500;
+            }
+        }
+        .notice{
+            padding-top: 10px;
+            p{
+              padding: 35px 12px;
+              background-color:#d0232a;
+              color: $white;
+              font-size: 18px;
+              font-weight: 500;
+              line-height: 30px;
+              border-radius: 5px;
+              span{
+                  font-family: $font-1;
+              }
+
+            }
+        }
+        .socialMedia{
+            padding-bottom: 15px;
+            ul{
+                li{
+                    display: inline-block;
+                    height: 40px;
+                    width: 40px;
+                    border: 1px solid gold;
+                    border-radius: 5px;
+                    text-align: center;
+                    line-height: 40px;
+                    margin-left: 10px;
+                    a{
+                       font-size: 25px;
+                       color: $white;
+                       &:hover{
+                           color: $black;
+                       }
+                    }
+                }
+            }
+        }
+    }
+}

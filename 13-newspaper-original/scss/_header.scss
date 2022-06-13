@@ -1,0 +1,136 @@
+.header{
+      border-bottom: 1px solid #9999;
+    .header_wrapper{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 0 25px 0;
+            background-color: $white;
+            .header_item1{
+                 h4 {
+                    font-size: 15px;
+                    font-weight: 500;
+                    color: #000;
+                    font-style: italic;
+                }
+            }
+            .header_item2{
+                 img{
+                     width: 200px; 
+                 }
+            }
+            .header_item3{
+                h5 {
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: #000;
+                }
+            }
+    }
+}
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    background-color: $white;
+    ul{
+        li{
+            padding-right:  30px;
+            cursor: pointer;
+            position: relative;
+            display: inline-block;
+            &:hover a{
+               width: 100%;
+            }
+            &:hover .sub_down{
+                top: 40px;
+                opacity: 1;
+                margin-top: 0;
+                visibility: visible;
+                padding: 10px 10px 10px 10px;
+            }
+
+            a{
+                font-size: 18px;
+                font-weight: 500;
+                color: black;
+                .droppper{
+                    font-size: 16px;
+                }
+                &:hover{
+                    color: $primaryColor;
+                }
+            }
+            .sub_down{
+                background-color: $white;
+                border-radius: 10px;
+                padding: 10px 10px 10px 10px;
+                box-shadow: 1px 1.732px 20px 0px rgba(0,0,0,0.3);   
+                -webkit-transition: all 0.3s ease-in-out;
+                transition: all 0.3s ease-in-out;
+                position: absolute;
+                visibility: hidden;
+                display: block;
+                width: 250px;
+                border: none !important;
+                opacity: 0;
+                top: 70px;
+                left: 0;
+                padding: 0;
+                z-index: 9999999;
+              li{
+                   padding: 10px 10px;
+                   width: 100%;
+                   &:hover{
+                       background-color: $primaryColor;
+                       width: 100%;
+                   } 
+                   &:hover a{
+                    color: $white ; 
+                } 
+                  a{
+                    font-size: 18px;
+                    font-weight: 500;
+                    color: black;
+                  }
+              }
+         }
+        }
+    }
+}
+.header_marque{
+    background-color: $primaryColor;
+    marquee{
+         p{
+             display: inline-block;
+             font-size: 16px !important;
+             color: $white;
+             font-weight: 400;
+             line-height: 45px;
+             padding: 0 30px;
+         span{
+              font-size: 16px;
+              font-weight: 500; 
+              color: gold; 
+              padding: 0 20px;
+            }
+         }
+    }
+}
+.marqueNewClass{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2; 
+    transition: all 0.7s ease-in-out;
+}
+.navBarNewClass{
+    position: fixed;
+    top: 47px;
+    width: 100%;
+    transition: all linear 1s;
+    z-index: 2;
+    box-shadow: 1px 1.732px 10px 3px #0000004d;
+    transition: all 0.7s ease-in-out;
+}

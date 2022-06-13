@@ -1,0 +1,105 @@
+.section-9{
+    padding: 30px 0;
+    .section_header{
+        padding-bottom: 20px;
+        a{
+            display: inline-block;
+            font-size: 22px;
+            color: $primaryColor;
+            font-weight: 600;
+            line-height: 30px;
+            span{
+                padding-left: 2px;
+                i{
+                    font-size: 20px;
+                    color: red; 
+                }
+            }
+
+        }
+    }
+    .section6_body{
+        .share-1{
+            border: 1px solid #cfcfcf;
+            width: 100%;
+            background-color: $bg;
+            padding: 10px 10px 5px 10px;
+            .img_wrapper{
+                display: flex;
+                justify-content: center;
+                height: 375px;
+                overflow: hidden;
+            img{
+                max-height: 100%;
+                max-width: 100%;
+                border-radius: 5px;
+                &:hover{
+                    transform: scale(1.2);
+                    transition: all linear .5s;
+                }
+            }
+         }
+         h4{
+             font-size: 26px;
+             color: $black;
+             font-weight: 500;
+             padding-top: 20px;
+             line-height: 35px;
+             &:hover{
+                 color:$primaryColor ;
+             }
+         }
+         h6{
+            font-size: 18px;
+            color: #494848;
+            font-weight: 400;
+            line-height: 30px;
+            padding-top: 5px;
+            &:hover{
+                color: $black;
+            }
+        }
+         p{
+            font-size: 13px;
+            color: $black;
+            font-weight: 400;
+            text-align: end;
+            padding-top: 10px;
+         }
+        }
+        .share-item{
+            background-color: $bg;
+            display: flex;
+            padding: 8px 10px;
+            border: 1px solid #cfcfcf;
+            .img_wrapper{
+                display: flex;
+                justify-content: center;
+                height: 120px;
+                width: 35%;
+                overflow: hidden;
+            img{
+                max-height: 100%;
+                max-width: 100%;
+                &:hover{
+                    transform: scale(1.1);
+                    transition: all linear .3s;
+                }
+            }
+         }
+          .item_text{
+              width: 65%;  
+              padding: 10px 10px 10px 0;
+            h4{
+                font-size: 17px;
+                color: #494848;
+                font-weight: 500;
+                line-height: 26px;
+                &:hover{
+                    color: $black;
+                }
+            }
+          }
+        }
+    }
+}
