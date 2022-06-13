@@ -1,0 +1,65 @@
+.service{
+    margin: 200px 0 100px 0;
+      .service_wrapper{
+           .accordion{
+                 .accordion-item{
+                      .accordion-header{
+                           .accordion-button{
+                               h3{
+                                   font-size: 20px;
+                                   color: $black;
+                                   font-weight: 700;
+                                   font-family: $play;
+
+                                   span{
+                                       padding-right:10px;
+                                       
+                                   }
+                               }
+                               &:focus {
+                                z-index: 3;
+                                border-color: #86b7fe;
+                                outline: 0;
+                                box-shadow: 0 0 0 .25rem  transparent;
+                            }
+                           }
+                           .accordion-button:not(.collapsed) {
+                            color: $black;
+                            background-color: #adc6e8;
+                            box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+                        }
+                      }
+                      .accordion-collapse{
+                           .accordion-body{
+                                    .acording_slider{
+                                         .slider_item{
+                                             img{
+                                                 width: 100%;
+                                                 border-radius: 10px;
+                                                 border: 1px solid $text;
+                                             }
+                                         }
+                                    }
+                               ul{
+                                   padding-top: 20px;
+                                   li{
+                                        font-size: 17px;
+                                        color: rgba(45,44,44,0.842); 
+                                        font-weight: 400;
+                                        font-family: $inter;
+                                        padding: 5px 0;
+                                        line-height: 27px;
+                                       span{
+                                          padding-right: 10px;
+                                          font-size: 16px;
+                                          color: $black;
+                                       }
+                                   }
+                               }
+
+                           }
+                      }
+                 }
+           }
+      }
+}

@@ -1,0 +1,253 @@
+@media (min-width: 280px) and (max-width: 319.98px){     
+	/*header  section */
+	.banner .banner_wrapper .banner_logo {
+		position: absolute;
+		top: 20px;
+		left: 0px;
+	}
+	.banner .banner_wrapper .banner_logo img {
+		width: 110px;
+	}
+	.banner .banner_wrapper .banner_wrap .banner_content .icon ul li a span {
+		padding-left: 10px;
+	}
+	.banner .banner_wrapper .banner_wrap .banner_content .icon ul li a {
+		font-size: 14px;
+	}
+	.banner .banner_wrapper .banner_wrap .banner_content .banner_btn a {
+		padding: 19px 49px;
+		font-size: 17px;
+	}
+	/* Service */
+	.service {
+		margin: 70px 0 80px 0;
+	}
+	.service .service_wrapper .accordion .accordion-item .accordion-collapse .accordion-body ul li {
+		font-size: 14px;
+	}
+	.service .service_wrapper .accordion .accordion-item .accordion-collapse .accordion-body ul li span {
+		font-size: 15px;
+	}
+/* footer */
+.footer .footer_wrapper h4 {
+	font-size: 50px;
+}
+.footer .footer_wrapper h5 {
+	font-size: 22px;
+	padding-top: 30px;
+	letter-spacing: 1px;
+}
+.footer .footer_wrapper h6 {
+	font-size: 18px;
+}
+.CampainBanner {
+	margin: 60px 0 60px 0;
+}
+
+}
+@media (min-width: 320px) and (max-width: 479.98px){     
+	/*header  section */
+	.banner .banner_wrapper .banner_logo {
+		position: absolute;
+		top: 20px;
+		left: 0px;
+	}
+	.banner .banner_wrapper .banner_logo img {
+		width: 110px;
+	}
+	.banner .banner_wrapper .banner_wrap .banner_content .icon ul li a span {
+		padding-left: 10px;
+	}
+	.banner .banner_wrapper .banner_wrap .banner_content .icon ul li a {
+		font-size: 14px;
+	}
+	.banner .banner_wrapper .banner_wrap .banner_content .banner_btn a {
+		padding: 19px 49px;
+		font-size: 17px;
+	}
+	/* Service */
+	.service {
+		margin: 70px 0 80px 0;
+	}
+	.service .service_wrapper .accordion .accordion-item .accordion-collapse .accordion-body ul li {
+		font-size: 14px;
+	}
+	.service .service_wrapper .accordion .accordion-item .accordion-collapse .accordion-body ul li span {
+		font-size: 15px;
+	}
+/* footer */
+.footer .footer_wrapper h4 {
+	font-size: 50px;
+}
+.footer .footer_wrapper h5 {
+	font-size: 22px;
+	padding-top: 30px;
+	letter-spacing: 1px;
+}
+.footer .footer_wrapper h6 {
+	font-size: 18px;
+}
+.CampainBanner {
+	margin: 60px 0 60px 0;
+}
+
+}
+
+
+@media (min-width: 480px) and (max-width: 575.98px){     
+	/*header  section */
+	.banner .banner_wrapper .banner_logo {
+		position: absolute;
+		top: 20px;
+		left: 0px;
+	}
+	.banner .banner_wrapper .banner_logo img {
+		width: 120px;
+	}
+	.banner .banner_wrapper .banner_wrap .banner_content .icon ul li a span {
+		padding-left: 10px;
+	}
+	.banner .banner_wrapper .banner_wrap .banner_content .icon ul li a {
+		font-size: 14px;
+	}
+	
+	/* Service */
+	.service {
+		margin: 70px 0 80px 0;
+	}
+	.service .service_wrapper .accordion .accordion-item .accordion-collapse .accordion-body ul li {
+		font-size: 16px;
+	}
+	.service .service_wrapper .accordion .accordion-item .accordion-collapse .accordion-body ul li span {
+		font-size: 16px;
+	}
+/* footer */
+.footer .footer_wrapper h4 {
+	font-size: 50px;
+}
+.footer .footer_wrapper h5 {
+	font-size: 22px;
+	padding-top: 30px;
+	letter-spacing: 1px;
+}
+.footer .footer_wrapper h6 {
+	font-size: 18px;
+}
+.CampainBanner {
+	margin: 60px 0 60px 0;
+}
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px){     
+	/*header  section */
+	.banner .banner_wrapper .banner_logo {
+		position: absolute;
+		top: 20px;
+		left: 0px;
+	}
+	.banner .banner_wrapper .banner_logo img {
+		width: 120px;
+	}
+	.banner .banner_wrapper .banner_wrap .banner_content .icon ul li a span {
+		padding-left: 10px;
+	}
+	.banner .banner_wrapper .banner_wrap .banner_content .icon ul li a {
+		font-size: 14px;
+	}
+	
+	/* Service */
+	.service {
+		margin: 70px 0 80px 0;
+	}
+	.service .service_wrapper .accordion .accordion-item .accordion-collapse .accordion-body ul li {
+		font-size: 16px;
+	}
+	.service .service_wrapper .accordion .accordion-item .accordion-collapse .accordion-body ul li span {
+		font-size: 16px;
+	}
+/* footer */
+.footer .footer_wrapper h4 {
+	font-size: 50px;
+}
+.footer .footer_wrapper h5 {
+	font-size: 22px;
+	padding-top: 30px;
+	letter-spacing: 1px;
+}
+.footer .footer_wrapper h6 {
+	font-size: 18px;
+}
+.CampainBanner {
+	margin: 60px 0 60px 0;
+}
+
+}
+@media (min-width: 768px) and (max-width: 991.98px){     
+	/*header  section */
+	.banner .banner_wrapper .banner_logo {
+		position: absolute;
+		top: 20px;
+		left: 0px;
+	}
+	.banner .banner_wrapper .banner_logo img {
+		width: 120px;
+	}
+	.banner .banner_wrapper .banner_wrap .banner_content .icon ul li a span {
+		padding-left: 10px;
+	}
+	.banner .banner_wrapper .banner_wrap .banner_content .icon ul li a {
+		font-size: 14px;
+	}
+	
+	/* Service */
+	.service {
+		margin: 120px 0 80px 0;
+	}
+	.service .service_wrapper .accordion .accordion-item .accordion-collapse .accordion-body ul li {
+		font-size: 16px;
+	}
+	.service .service_wrapper .accordion .accordion-item .accordion-collapse .accordion-body ul li span {
+		font-size: 16px;
+	}
+/* footer */
+.footer .footer_wrapper h4 {
+	font-size: 50px;
+}
+.footer .footer_wrapper h5 {
+	font-size: 22px;
+	padding-top: 30px;
+	letter-spacing: 1px;
+}
+.footer .footer_wrapper h6 {
+	font-size: 18px;
+}
+.CampainBanner {
+	margin: 60px 0 60px 0;
+}
+
+}
+@media (min-width: 992px) and (max-width: 1199.98px){ 
+	.banner .banner_wrapper .banner_logo {
+		position: absolute;
+		top: 20px;
+		left: 0px;
+	}
+	.banner .banner_wrapper .banner_logo img {
+		width: 140px;
+	}
+
+ 
+}
+@media (min-width: 1200px) and (max-width: 1399.98px){ 
+	.banner .banner_wrapper .banner_logo {
+		position: absolute;
+		top: 20px;
+		left: 0px;
+	}
+	.banner .banner_wrapper .banner_logo img {
+		width: 140px;
+	}
+
+
+}
