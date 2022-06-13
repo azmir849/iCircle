@@ -1,0 +1,186 @@
+<!-- -------------PDF GENERATEOR --------------- -->
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<link rel="stylesheet" href="https://kendo.cdn.telerik.com/2017.1.223/styles/kendo.common.min.css" />
+<script src="https://kendo.cdn.telerik.com/2017.1.223/js/jszip.min.js"></script>
+<script src="https://kendo.cdn.telerik.com/2017.1.223/js/kendo.all.min.js"></script>
+
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'>
+ 
+    <!-- <div id="example">
+    <div class="box wide hidden-on-narrow">
+    </div> -->
+    <button class="btn btn-primary m-5" id="pdf-generate">Download</button>
+
+    <div class="page-container hidden-on-narrow">
+        <div class="pdf-page size-a4">
+            <page size="A4">
+               
+               <!-- PDF CONTENT START -->
+
+               <div class="container">
+                <div class="card">
+                    <div class="card-header">
+                        <h1>Invoice</h1>
+                        <strong>01/01/2020</strong>
+                        <span class="float-right"> <strong>Status:</strong> Pending</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="row mb-4">
+                            <div class="col-sm-6">
+                                <!-- <h6 class="mb-3">From:</h6> -->
+                                <div>
+                                    <strong>Customer Name</strong>
+                                </div>
+                                <div><small>Invoice Number: 101010</small></div>
+                                <div><small>Order Number: 12125415</small></div>
+                                <div><small>Invoice Due Date: 04/21/2022</small></div>
+                                <div><small>Subject: Test Subject</small></div>
+                                <div><small>Terms : Ondue receipt</small></div>
+                            </div>
+                            <!-- <div class="col-sm-6">
+                                <h6 class="mb-3">To:</h6>
+                                <div>
+                                    <strong>Robert Maxwel</strong>
+                                </div>
+                                <div>Attn: Daniel Marek</div>
+                                <div>43-190 Mikolow, Poland</div>
+                                <div>Email: robert@daniel.com</div>
+                                <div>Phone: +48 123 456 349</div>
+                            </div> -->
+                        </div>
+                        <div class="table-responsive-sm  table-bordered">
+                            <table class="table table-striped ">
+                                <thead>
+                                    <tr>
+                                        <th class="center">#</th>
+                                        <th>Item Details</th>
+                                        <th>Quantity</th>
+                                        <th class="right">Rate</th>
+                                        <th class="center">Discount</th>
+                                        <th class="right">Amount</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="center">1</td>
+                                        <td class="left strong">Origin License</td>
+                                        <td class="left">10</td>
+                                        <td class="right">$999,00</td>
+                                        <td class="center">1</td>
+                                        <td class="right">$999,00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="center">2</td>
+                                        <td class="left">Custom Services</td>
+                                        <td class="left">4</td>
+                                        <td class="right">$150,00</td>
+                                        <td class="center">20</td>
+                                        <td class="right">$3.000,00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="center">3</td>
+                                        <td class="left">Hosting</td>
+                                        <td class="left">2</td>
+                                        <td class="right">$499,00</td>
+                                        <td class="center">1</td>
+                                        <td class="right">$499,00</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-5">
+                            </div>
+                            <div class="col-lg-4 col-sm-5 ml-auto">
+                                <table class="table  table-bordered">
+                                    <tbody>
+                                        <tr>
+                                            <td class="left">
+                                                <strong>Subtotal</strong>
+                                            </td>
+                                            <td class="right">$8.497,00</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="left">
+                                                <strong>TAX (%)</strong>
+                                            </td>
+                                            <td class="right">$1,699,40</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="left">
+                                                <strong>Around Off</strong>
+                                            </td>
+                                            <td class="right">$679,76</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="left">
+                                                <strong>Total</strong>
+                                            </td>
+                                            <td class="right">
+                                                <strong>$7.477,36</strong>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+               <!-- PDF CONTENT END -->
+             
+            </page>
+        </div>
+    </div>
+   
+
+<!-- 
+    <script>
+        kendo.pdf.defineFont({
+            "DejaVu Sans"             : "https://kendo.cdn.telerik.com/2016.2.607/styles/fonts/DejaVu/DejaVuSans.ttf",
+            "DejaVu Sans|Bold"        : "https://kendo.cdn.telerik.com/2016.2.607/styles/fonts/DejaVu/DejaVuSans-Bold.ttf",
+            "DejaVu Sans|Bold|Italic" : "https://kendo.cdn.telerik.com/2016.2.607/styles/fonts/DejaVu/DejaVuSans-Oblique.ttf",
+            "DejaVu Sans|Italic"      : "https://kendo.cdn.telerik.com/2016.2.607/styles/fonts/DejaVu/DejaVuSans-Oblique.ttf"
+        });
+    </script> -->
+
+   
+
+    <script>
+      function getPDF(selector) {
+        kendo.drawing.drawDOM($(selector)).then(function(group){
+          kendo.drawing.pdf.saveAs(group, 'testing.pdf');
+        });
+      }
+    </script>
+    <style>
+    * {
+        box-sizing: border-box;
+    }
+    body {
+          font-family: 'Montserrat', sans-serif;
+    }
+    page[size="A4"] {  
+      width: 790px;
+      height: 1000px; 
+    }
+    page {
+      background: white; 
+      display: block;
+      margin: 0 auto;
+    }
+    .pdf-page {
+            font-family: "DejaVu Sans", "Arial", sans-serif;
+        }
+
+</style>
+
+
+<script type="text/javascript">
+       $('#pdf-generate').click(function(){
+         getPDF('.pdf-page');
+       })
+</script>
