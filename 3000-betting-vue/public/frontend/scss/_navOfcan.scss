@@ -1,0 +1,91 @@
+.MobHeader{
+  background-color: #333333;
+  .mobNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    .logo{
+      img{
+        width: 110px;
+      }
+    }
+    .moble_navbar{
+      color: $white;
+      font-size: 25px;
+    }
+  }
+}
+
+.navbar_toggoler{
+    .offcanvas {
+        .offcanvas-header{
+          background-color: $primaryColor;
+          .item4{
+            display: flex;
+            align-items: center;
+            .profileImg{
+                img{
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                }
+            }
+    .profileDetails{
+        padding-left: 5px;
+              h5{
+                font-size: 17px;
+                font-weight: 500;
+                color: #333333; 
+                line-height: 24px;
+              }
+              h6{
+                font-size: 13px;
+                font-weight: 400;
+                color: #686666; 
+                line-height: 8px;          }
+            }
+        }
+        .btn-close{
+          position: fixed;
+          right: 10px;
+          top: 10px;
+        }
+        }
+        .offcanvas-body{ 
+            background-color: #454545;  
+            .sideBar_List{
+              ul{
+                  padding-left: 40px;
+                  padding-top: 40px;
+                  li{
+                      padding-bottom: 20px;
+                    a{
+                        font-size: 19px;
+                        color: $white;
+                        font-weight: 400;
+                        &:hover{
+                            color: #ffff00;
+                        }
+                    }
+                  }
+              }
+          }
+          .signOut_btn{
+              padding-left: 40px;
+              padding-top: 40px;
+              a{
+                  font-size: 18px;
+                  color: $white;
+                  font-weight: 600;
+                  padding: 12px 25px;
+                  background-color: #ff0101;
+                  border-radius: 7px;
+                  &:hover{
+                      background-color: #d01b1b;
+                  }
+              }
+          }
+        }
+    }
+}

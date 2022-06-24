@@ -1,0 +1,851 @@
+@media (min-width: 320px) and (max-width: 379.98px){  
+    .btn-close:focus {
+        outline: 0;
+        box-shadow: 0 0 0 .25rem transparent;
+        opacity: 1;
+    }
+    .DashedBoard_header {
+        margin-left: 0px;
+    }
+    .home {
+        margin-left: 0px;
+    }
+    .offcanvas-end {
+        width: 250px;
+    }
+    .navbar_toggoler .offcanvas .offcanvas-body .sideBar_List ul {
+        padding-left: 7px;
+        padding-top: 10px;
+    }
+    .navbar_toggoler .offcanvas .offcanvas-body .sideBar_List ul li a {
+        font-size: 17px;
+    }
+    .navbar_toggoler .offcanvas .offcanvas-body .sideBar_List ul li {
+        padding-bottom: 15px;
+    }
+
+    .navbar_toggoler .offcanvas .offcanvas-body .signOut_btn {
+        padding-left: 7px;
+        padding-top: 25px;
+    }
+    .navbar_toggoler .offcanvas .offcanvas-body .signOut_btn a {
+        font-size: 16px;
+        padding: 10px 17px;
+        border-radius: 5px;
+    }
+    .home .home_Wrapper .number_Field .numberItem a {
+        font-size: 28px;
+        line-height: 60px;
+        font-weight: 600;
+    }
+    .home .home_Wrapper .number_Field .numberItem {
+        height: 60px;
+        margin-bottom: 4px;
+    }
+    .M-padding{
+        padding: 3px;
+    }
+    .home .home_Wrapper .number_Field {
+        padding-top: 10px;
+        padding-left: 1px;
+        padding-right: 6px;
+    }
+    .home .home_Wrapper {
+        padding-top: 30px;
+    }
+    .home .home_Wrapper h4 {
+        font-size: 34px;
+        line-height: 44px;
+    }
+    /* footer */
+    .footer {
+        margin-top: 20px;
+        margin-left: 0px;
+        padding: 35px 0;
+    }
+    .footer .footer_wrapper h4 {
+        font-size: 15px;
+    }
+    .footer .footer_wrapper h5 {
+        font-size: 18px;
+        padding: 0px 0;
+    }
+    .footer .footer_wrapper h6 {
+        font-size: 17px;
+        color: #f7fe01;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+}
+@media (min-width: 380px) and (max-width: 479.98px){  
+    .btn-close:focus {
+        outline: 0;
+        box-shadow: 0 0 0 .25rem transparent;
+        opacity: 1;
+    }
+    .DashedBoard_header {
+        margin-left: 0px;
+    }
+    .home {
+        margin-left: 0px;
+    }
+    .offcanvas-end {
+        width: 280px;
+    }
+    .navbar_toggoler .offcanvas .offcanvas-body .sideBar_List ul {
+        padding-left: 7px;
+        padding-top: 10px;
+    }
+    .navbar_toggoler .offcanvas .offcanvas-body .sideBar_List ul li a {
+        font-size: 17px;
+    }
+    .navbar_toggoler .offcanvas .offcanvas-body .sideBar_List ul li {
+        padding-bottom: 15px;
+    }
+
+    .navbar_toggoler .offcanvas .offcanvas-body .signOut_btn {
+        padding-left: 7px;
+        padding-top: 25px;
+    }
+    .navbar_toggoler .offcanvas .offcanvas-body .signOut_btn a {
+        font-size: 16px;
+        padding: 10px 17px;
+        border-radius: 5px;
+    }
+    .home .home_Wrapper .number_Field .numberItem a {
+        font-size: 30px;
+        line-height: 63px;
+        font-weight: 700;
+    }
+    .home .home_Wrapper .number_Field .numberItem {
+        height: 63px;
+        margin-bottom: 4px;
+    }
+    .M-padding{
+        padding: 3px;
+    }
+    .home .home_Wrapper .number_Field {
+        padding-top: 10px;
+        padding-left: 1px;
+        padding-right: 6px;
+    }
+    .home .home_Wrapper {
+        padding-top: 30px;
+    }
+    .home .home_Wrapper h4 {
+        font-size: 34px;
+        line-height: 44px;
+    }
+    /* footer */
+    .footer {
+        margin-top: 20px;
+        margin-left: 0px;
+        padding: 35px 0;
+    }
+    .footer .footer_wrapper h4 {
+        font-size: 15px;
+    }
+    .footer .footer_wrapper h5 {
+        font-size: 18px;
+        padding: 0px 0;
+    }
+    .footer .footer_wrapper h6 {
+        font-size: 17px;
+        color: #f7fe01;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+}
+@media (min-width: 480px) and (max-width: 575.98px){  
+    .btn-close:focus {
+        outline: 0;
+        box-shadow: 0 0 0 .25rem transparent;
+        opacity: 1;
+    }
+    .DashedBoard_header {
+        margin-left: 0px;
+    }
+    .home {
+        margin-left: 0px;
+    }
+    .offcanvas-end {
+        width: 300px;
+    }
+    .navbar_toggoler .offcanvas .offcanvas-body .sideBar_List ul {
+        padding-left: 7px;
+        padding-top: 10px;
+    }
+    .navbar_toggoler .offcanvas .offcanvas-body .sideBar_List ul li a {
+        font-size: 17px;
+    }
+    .navbar_toggoler .offcanvas .offcanvas-body .sideBar_List ul li {
+        padding-bottom: 15px;
+    }
+
+    .navbar_toggoler .offcanvas .offcanvas-body .signOut_btn {
+        padding-left: 7px;
+        padding-top: 25px;
+    }
+    .navbar_toggoler .offcanvas .offcanvas-body .signOut_btn a {
+        font-size: 16px;
+        padding: 10px 17px;
+        border-radius: 5px;
+    }
+    .home .home_Wrapper .number_Field .numberItem a {
+        font-size: 40px;
+        line-height: 75px;
+        font-weight: 700;
+    }
+    .home .home_Wrapper .number_Field .numberItem {
+        height: 75px;
+        margin-bottom: 4px;
+    }
+    .M-padding{
+        padding: 3px;
+    }
+    .home .home_Wrapper .number_Field {
+        padding-top: 10px;
+        padding-left: 1px;
+        padding-right: 6px;
+    }
+    .home .home_Wrapper {
+        padding-top: 30px;
+    }
+    .home .home_Wrapper h4 {
+        font-size: 34px;
+        line-height: 44px;
+    }
+    /* footer */
+    .footer {
+        margin-top: 20px;
+        margin-left: 0px;
+        padding: 35px 0;
+    }
+    .footer .footer_wrapper h4 {
+        font-size: 15px;
+    }
+    .footer .footer_wrapper h5 {
+        font-size: 18px;
+        padding: 0px 0;
+    }
+    .footer .footer_wrapper h6 {
+        font-size: 17px;
+        color: #f7fe01;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px){  
+    .btn-close:focus {
+        outline: 0;
+        box-shadow: 0 0 0 .25rem transparent;
+        opacity: 1;
+    }
+    .container, .container-fluid {
+        max-width: 540px;
+    }
+    .DashedBoard_header {
+        margin-left: 0px;
+    }
+    .home {
+        margin-left: 0px;
+    }
+    .offcanvas-end {
+        width: 300px;
+    }
+    .navbar_toggoler .offcanvas .offcanvas-body .sideBar_List ul {
+        padding-left: 7px;
+        padding-top: 10px;
+    }
+    .navbar_toggoler .offcanvas .offcanvas-body .sideBar_List ul li a {
+        font-size: 17px;
+    }
+    .navbar_toggoler .offcanvas .offcanvas-body .sideBar_List ul li {
+        padding-bottom: 15px;
+    }
+    .MobHeader .mobNav .logo img {
+        width: 130px;
+    }
+    .navbar_toggoler .offcanvas .offcanvas-body .signOut_btn {
+        padding-left: 7px;
+        padding-top: 25px;
+    }
+    .navbar_toggoler .offcanvas .offcanvas-body .signOut_btn a {
+        font-size: 16px;
+        padding: 10px 17px;
+        border-radius: 5px;
+    }
+    .home .home_Wrapper .number_Field .numberItem a {
+        font-size: 45px;
+        line-height: 85px;
+        font-weight: 700;
+    }
+    .home .home_Wrapper .number_Field .numberItem {
+        height: 85px;
+        margin-bottom: 4px;
+    }
+    .M-padding{
+        padding: 3px;
+    }
+    .home .home_Wrapper .number_Field {
+        padding-top: 10px;
+        padding-left: 1px;
+        padding-right: 6px;
+    }
+    .home .home_Wrapper {
+        padding-top: 30px;
+    }
+    .home .home_Wrapper h4 {
+        font-size: 34px;
+        line-height: 44px;
+    }
+    /* footer */
+    .footer {
+        margin-top: 20px;
+        margin-left: 0px;
+        padding: 35px 0;
+    }
+    .footer .footer_wrapper h4 {
+        font-size: 15px;
+    }
+    .footer .footer_wrapper h5 {
+        font-size: 18px;
+        padding: 0px 0;
+    }
+    .footer .footer_wrapper h6 {
+        font-size: 17px;
+        color: #f7fe01;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px){  
+    .btn-close:focus {
+        outline: 0;
+        box-shadow: 0 0 0 .25rem transparent;
+        opacity: 1;
+    }
+    .container, .container-fluid {
+        max-width: 720px;
+    }
+    .DashedBoard_header {
+        margin-left: 0px;
+    }
+    .navbar_toggoler .offcanvas .offcanvas-header .item4 .profileDetails h5 {
+        font-size: 20px;
+    }
+    .home {
+        margin-left: 0px;
+    }
+    .navbar_toggoler .offcanvas .offcanvas-header .btn-close {
+        position: fixed;
+        right: 25px;
+        top: 20px;
+    }
+    .navbar_toggoler .offcanvas .offcanvas-body .sideBar_List ul {
+        padding-left: 7px;
+        padding-top: 10px;
+    }
+    .navbar_toggoler .offcanvas .offcanvas-body .sideBar_List ul li a {
+        font-size: 18px;
+    }
+    .navbar_toggoler .offcanvas .offcanvas-body .sideBar_List ul li {
+        padding-bottom: 20px;
+    }
+    .MobHeader .mobNav .logo img {
+        width: 130px;
+    }
+    .navbar_toggoler .offcanvas .offcanvas-body .signOut_btn {
+        padding-left: 7px;
+        padding-top: 25px;
+    }
+    .navbar_toggoler .offcanvas .offcanvas-body .signOut_btn a {
+        font-size: 16px;
+        padding: 10px 17px;
+        border-radius: 5px;
+    }
+    .home .home_Wrapper .number_Field .numberItem a {
+        font-size: 55px;
+        line-height: 115px;
+        font-weight: 700;
+    }
+    .home .home_Wrapper .number_Field .numberItem {
+        height: 115px;
+        margin-bottom: 4px;
+    }
+    .M-padding{
+        padding: 7px;
+    }
+    .home .home_Wrapper .number_Field {
+        padding-top: 10px;
+        padding-left: 1px;
+        padding-right: 6px;
+    }
+    .home .home_Wrapper {
+        padding-top: 40px;
+    }
+    .home .home_Wrapper h4 {
+        font-size: 40px;
+        line-height: 44px;
+    }
+    .navbar_toggoler .offcanvas .offcanvas-header .item4 .profileImg img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+    }
+    .navbar_toggoler .offcanvas .offcanvas-header .item4 .profileDetails h6 {
+        font-size: 14px;
+    }
+    /* footer */
+    .footer {
+        margin-top: 20px;
+        margin-left: 0px;
+        padding: 35px 0;
+    }
+    .footer .footer_wrapper h4 {
+        font-size: 15px;
+    }
+    .footer .footer_wrapper h5 {
+        font-size: 18px;
+        padding: 0px 0;
+    }
+    .footer .footer_wrapper h6 {
+        font-size: 17px;
+        color: #f7fe01;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+}
+
+@media (min-width:992px) and (max-width: 1199.98px){
+    .sideBar .logo img {
+        width: 150px;
+    }
+    .BuyNumber {
+        padding-top: 80px;
+        margin-left: 230px;
+    }
+    .sideBar {
+        width: 210px;
+        background-color: #454545;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    .DashedBoard_header {
+        margin-left: 210px;
+    }
+    .home {
+        margin-left: 210px;
+    }
+    .footer {
+        background-color: #002610;
+        padding: 65px 0;
+        margin-top: 50px;
+        margin-left: 210px;
+    }
+    .sideBar .sideBar_List ul {
+        padding-left: 25px;
+    }
+    .sideBar .signOut_btn {
+        padding-left: 25px;
+        padding-top: 30px;
+    }
+    .sideBar .signOut_btn a {
+        font-size: 16px;
+    }
+    .sideBar .sideBar_List ul li a {
+        font-size: 18px;
+    }
+    .DashedBoard_header .header_wrapper {
+        padding: 9px 5px;
+    }
+    .DashedBoard_header .header_wrapper .item3 ul li {
+       display: none;
+    }
+    .M-padding{
+        padding: 3px;
+    }
+    .home .home_Wrapper .number_Field .numberItem a {
+        font-size: 36px;
+        line-height: 75px;
+    }
+    .home .home_Wrapper .number_Field .numberItem {
+        height: 75px;
+        margin-bottom: 10px;
+    }
+}
+@media (min-width:1200px) and (max-width: 1299.98px){
+    .sideBar .logo img {
+        width: 160px;
+    }
+    .BuyNumber {
+        padding-top: 80px;
+        margin-left: 230px;
+    }
+    .sideBar {
+        width: 210px;
+        background-color: #454545;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    .DashedBoard_header {
+        margin-left: 210px;
+    }
+    .home {
+        margin-left: 210px;
+    }
+    .footer {
+        background-color: #002610;
+        padding: 65px 0;
+        margin-top: 50px;
+        margin-left: 210px;
+    }
+    .sideBar .sideBar_List ul {
+        padding-left: 25px;
+    }
+    .sideBar .signOut_btn {
+        padding-left: 25px;
+        padding-top: 30px;
+    }
+    .sideBar .signOut_btn a {
+        font-size: 16px;
+    }
+    .sideBar .sideBar_List ul li a {
+        font-size: 18px;
+    }
+    .DashedBoard_header .header_wrapper {
+        padding: 9px 5px;
+    }
+    .DashedBoard_header .header_wrapper .item3 ul li {
+       display: none;
+    }
+    .M-padding{
+        padding: 3px;
+    }
+    .home .home_Wrapper .number_Field .numberItem a {
+        font-size: 40px;
+        line-height: 80px;
+    }
+    .home .home_Wrapper .number_Field .numberItem {
+        height: 80px;
+        margin-bottom: 10px;
+    }
+    .home .home_Wrapper .number_Field {
+        padding-top: 30px;
+    }
+}
+@media (min-width:1300px) and (max-width: 1399.98px){
+    .sideBar .logo img {
+        width: 180px;
+    }
+    .BuyNumber {
+        padding-top: 80px;
+        margin-left: 230px;
+    }
+    .sideBar {
+        width: 220px;
+        background-color: #454545;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    .DashedBoard_header {
+        margin-left: 220px;
+    }
+    .home {
+        margin-left: 220px;
+    }
+    .footer {
+        background-color: #002610;
+        padding: 65px 0;
+        margin-top: 50px;
+        margin-left: 220px;
+    }
+    .sideBar .sideBar_List ul {
+        padding-left: 25px;
+    }
+    .sideBar .signOut_btn {
+        padding-left: 25px;
+        padding-top: 30px;
+    }
+    .sideBar .signOut_btn a {
+        font-size: 16px;
+    }
+    .sideBar .sideBar_List ul li a {
+        font-size: 18px;
+    }
+    .DashedBoard_header .header_wrapper {
+        padding: 9px 5px;
+    }
+    .DashedBoard_header .header_wrapper .item4 .profileDetails h5 {
+        font-size: 17px;
+    }
+    .DashedBoard_header .header_wrapper .item2 h6 {
+        font-size: 16px;
+    }
+    .DashedBoard_header .header_wrapper .item1 h6 {
+        font-size: 16px;
+    }
+    .DashedBoard_header .header_wrapper .item1 h6 i {
+        padding-right: 5px;
+    }
+    .DashedBoard_header .header_wrapper .item3 ul li {
+        font-size: 15px;
+    }
+    .DashedBoard_header .header_wrapper .item4 .profileImg img {
+        width: 65px;
+        height: 65px;
+    }
+    .M-padding{
+        padding: 3px;
+    }
+    .home .home_Wrapper .number_Field .numberItem a {
+        font-size: 45px;
+        line-height: 90px;
+    }
+    .home .home_Wrapper .number_Field .numberItem {
+        height: 90px;
+        margin-bottom: 10px;
+    }
+    .home .home_Wrapper .number_Field {
+        padding-top: 30px;
+    }
+}
+
+@media (min-width:1400px) and (max-width: 1499.98px){
+    .sideBar .logo img {
+        width: 180px;
+    }
+    .BuyNumber {
+        padding-top: 80px;
+        margin-left: 230px;
+    }
+    .sideBar {
+        width: 220px;
+        background-color: #454545;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    .DashedBoard_header {
+        margin-left: 220px;
+    }
+    .home {
+        margin-left: 220px;
+    }
+    .footer {
+        background-color: #002610;
+        padding: 65px 0;
+        margin-top: 50px;
+        margin-left: 220px;
+    }
+    .sideBar .sideBar_List ul {
+        padding-left: 25px;
+    }
+    .sideBar .signOut_btn {
+        padding-left: 25px;
+        padding-top: 30px;
+    }
+    .sideBar .signOut_btn a {
+        font-size: 16px;
+    }
+    .sideBar .sideBar_List ul li a {
+        font-size: 18px;
+    }
+    .DashedBoard_header .header_wrapper {
+        padding: 9px 5px;
+    }
+    .DashedBoard_header .header_wrapper .item4 .profileDetails h5 {
+        font-size: 17px;
+    }
+    .DashedBoard_header .header_wrapper .item2 h6 {
+        font-size: 16px;
+    }
+    .DashedBoard_header .header_wrapper .item1 h6 {
+        font-size: 16px;
+    }
+    .DashedBoard_header .header_wrapper .item1 h6 i {
+        padding-right: 5px;
+    }
+    .DashedBoard_header .header_wrapper .item3 ul li {
+        font-size: 15px;
+    }
+    .DashedBoard_header .header_wrapper .item4 .profileImg img {
+        width: 65px;
+        height: 65px;
+    }
+    .M-padding{
+        padding: 3px;
+    }
+    .home .home_Wrapper .number_Field .numberItem a {
+        font-size: 50px;
+        line-height: 100px;
+    }
+    .home .home_Wrapper .number_Field .numberItem {
+        height: 100px;
+        margin-bottom: 10px;
+    }
+    .home .home_Wrapper .number_Field {
+        padding-top: 30px;
+    }
+}
+@media (min-width:1500px) and (max-width: 1599.98px){
+    .sideBar .logo img {
+        width: 180px;
+    }
+    .BuyNumber {
+        padding-top: 80px;
+        margin-left: 230px;
+    }
+    .sideBar {
+        width: 220px;
+        background-color: #454545;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    .DashedBoard_header {
+        margin-left: 220px;
+    }
+    .home {
+        margin-left: 220px;
+    }
+    .footer {
+        background-color: #002610;
+        padding: 65px 0;
+        margin-top: 50px;
+        margin-left: 220px;
+    }
+    .sideBar .sideBar_List ul {
+        padding-left: 25px;
+    }
+    .sideBar .signOut_btn {
+        padding-left: 25px;
+        padding-top: 30px;
+    }
+    .sideBar .signOut_btn a {
+        font-size: 16px;
+    }
+    .sideBar .sideBar_List ul li a {
+        font-size: 18px;
+    }
+    .DashedBoard_header .header_wrapper {
+        padding: 9px 5px;
+    }
+    .DashedBoard_header .header_wrapper .item4 .profileDetails h5 {
+        font-size: 17px;
+    }
+    .DashedBoard_header .header_wrapper .item2 h6 {
+        font-size: 16px;
+    }
+    .DashedBoard_header .header_wrapper .item1 h6 {
+        font-size: 16px;
+    }
+    .DashedBoard_header .header_wrapper .item1 h6 i {
+        padding-right: 5px;
+    }
+    .DashedBoard_header .header_wrapper .item3 ul li {
+        font-size: 15px;
+    }
+    .DashedBoard_header .header_wrapper .item4 .profileImg img {
+        width: 65px;
+        height: 65px;
+    }
+    .M-padding{
+        padding: 5px;
+    }
+    .home .home_Wrapper .number_Field .numberItem a {
+        font-size: 55px;
+        line-height: 105px;
+    }
+    .home .home_Wrapper .number_Field .numberItem {
+        height: 105px;
+        margin-bottom: 7px;
+    }
+    .home .home_Wrapper .number_Field {
+        padding-top: 30px;
+    }
+}
+@media (min-width:1600px) and (max-width: 1699.98px){
+    .sideBar .logo img {
+        width: 180px;
+    }
+    .BuyNumber {
+        padding-top: 80px;
+        margin-left: 230px;
+    }
+    .sideBar {
+        width: 220px;
+        background-color: #454545;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    .DashedBoard_header {
+        margin-left: 220px;
+    }
+    .home {
+        margin-left: 220px;
+    }
+    .footer {
+        background-color: #002610;
+        padding: 65px 0;
+        margin-top: 50px;
+        margin-left: 220px;
+    }
+    .sideBar .sideBar_List ul {
+        padding-left: 25px;
+    }
+    .sideBar .signOut_btn {
+        padding-left: 25px;
+        padding-top: 30px;
+    }
+    .sideBar .signOut_btn a {
+        font-size: 16px;
+    }
+    .sideBar .sideBar_List ul li a {
+        font-size: 18px;
+    }
+    .DashedBoard_header .header_wrapper {
+        padding: 9px 5px;
+    }
+    .DashedBoard_header .header_wrapper .item4 .profileDetails h5 {
+        font-size: 17px;
+    }
+    .DashedBoard_header .header_wrapper .item2 h6 {
+        font-size: 16px;
+    }
+    .DashedBoard_header .header_wrapper .item1 h6 {
+        font-size: 16px;
+    }
+    .DashedBoard_header .header_wrapper .item1 h6 i {
+        padding-right: 5px;
+    }
+    .DashedBoard_header .header_wrapper .item3 ul li {
+        font-size: 15px;
+    }
+    .DashedBoard_header .header_wrapper .item4 .profileImg img {
+        width: 65px;
+        height: 65px;
+    }
+
+    .home .home_Wrapper .number_Field .numberItem a {
+        font-size: 55px;
+        line-height: 105px;
+    }
+    .home .home_Wrapper .number_Field .numberItem {
+        height: 105px;
+        margin-bottom: 15px;
+    }
+    .home .home_Wrapper .number_Field {
+        padding-top: 30px;
+    }
+}
