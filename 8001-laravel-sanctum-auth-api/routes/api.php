@@ -32,8 +32,9 @@ Route::get('/front', [FrontController::class, 'index']);
 Route::get('/front/{id}', [FrontController::class, 'show']);
 Route::get('/front/search/{name}', [FrontController::class, 'search']);
 
-//today picked
+//today picked and pick
 Route::get('/today-picks', [TodaypickController::class, 'index']);
+Route::get('/today-pick', [TodaypickController::class, 'todaypicked']);
 
 
 // Protected routes
