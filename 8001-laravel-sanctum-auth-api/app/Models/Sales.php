@@ -5,17 +5,18 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Product extends Model
+class Sales extends Model
 {
     use HasFactory;
-
     protected $fillable = [
         'name',
-        'slug',
-        'description',
-        'price'
+        'phone',
+        'agent_id',
+        'amount',
+        'product_id',
+        'date'
     ];
     protected $attributes = [ 
         'status' => '1',
-    ];
+    ]; 
 }

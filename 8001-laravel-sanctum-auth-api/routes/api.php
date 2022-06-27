@@ -3,6 +3,7 @@
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\FrontController;
+use App\Http\Controllers\AgentController;
 use App\Http\Controllers\TodaypickController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -37,6 +38,7 @@ Route::get('/today-picks', [TodaypickController::class, 'index']);
 Route::get('/today-pick', [TodaypickController::class, 'todaypicked']);
 
 
+
 // Protected routes
 Route::group(['middleware' => ['auth:sanctum']], function () {
     Route::post('/front', [FrontController::class, 'store']);
@@ -46,6 +48,12 @@ Route::group(['middleware' => ['auth:sanctum']], function () {
     Route::post('/products', [ProductController::class, 'store']);
     Route::put('/products/{id}', [ProductController::class, 'update']);
     Route::delete('/products/{id}', [ProductController::class, 'destroy']);
+
+    //Agent
+    Route::get('/active-products', [AgentController::class, 'index']);
+    Route::post('/process-purchase', [AgentController::class, 'processpurchase']);
+    Route::get('/history', [AgentController::class, 'history']);
+    Route::get('/collection', [AgentController::class, 'collection']);
 
     Route::post('/logout', [AuthController::class, 'logout']);
 });
