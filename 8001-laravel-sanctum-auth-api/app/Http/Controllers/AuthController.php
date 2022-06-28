@@ -62,6 +62,16 @@ class AuthController extends Controller
 
         return response($response, 201);
     }
+     //Get  user profile data
+     public function profile(Request $request)
+     {
+        if($request->user()->id){
+            return  $request->user();
+ 
+        }
+        
+     }
+ 
 
     public function logout(Request $request) {
         $request->user()->currentAccessToken()->delete();

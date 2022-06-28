@@ -41,6 +41,7 @@ Route::get('/today-pick', [TodaypickController::class, 'todaypicked']);
 
 // Protected routes
 Route::group(['middleware' => ['auth:sanctum']], function () {
+    //Admin
     Route::post('/front', [FrontController::class, 'store']);
     Route::put('/front/{id}', [FrontController::class, 'update']);
     Route::delete('/front/{id}', [FrontController::class, 'destroy']);
@@ -53,13 +54,14 @@ Route::group(['middleware' => ['auth:sanctum']], function () {
     Route::get('/active-products', [AgentController::class, 'index']);
     Route::post('/process-purchase', [AgentController::class, 'processpurchase']);
     Route::get('/history', [AgentController::class, 'history']);
-    Route::get('/collection', [AgentController::class, 'collection']);
+    Route::get('/collection-onday', [AgentController::class, 'collection']);
 
+    Route::get('/user', [AuthController::class, 'profile']);
     Route::post('/logout', [AuthController::class, 'logout']);
 });
 
 
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
-});
+// Route::middleware('auth:api')->get('/user', function (Request $request) {
+//     return $request->user();
+// });

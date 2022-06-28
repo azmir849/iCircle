@@ -25,13 +25,20 @@ class ProductController extends Controller
      */
     public function store(Request $request)
     {
-        $request->validate([
-            'name' => 'required',
-            'slug' => 'required',
-            'price' => 'required'
-        ]);
+        if($request->user()->role==='1'){
+            $request->validate([
+                'name' => 'required',
+                'slug' => 'required',
+                'price' => 'required'
+            ]);
+    
+            return Product::create($request->all());
+        }else{
+            return [
+                'message' => 'You are not permitted'
+            ];
+        }
 
-        return Product::create($request->all());
     }
 
     /**
@@ -54,9 +61,16 @@ class ProductController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $product = Product::find($id);
-        $product->update($request->all());
-        return $product;
+        if($request->user()->role==='1'){
+            $product = Product::find($id);
+            $product->update($request->all());
+            return $product;
+        }else{
+            return [
+                'message' => 'You are not permitted'
+            ];
+        }
+     
     }
 
     /**
@@ -67,7 +81,14 @@ class ProductController extends Controller
      */
     public function destroy($id)
     {
-        return Product::destroy($id);
+        if($request->user()->role==='1'){
+            return Product::destroy($id);
+        }else{
+            return [
+                'message' => 'You are not permitted'
+            ];
+        }
+
     }
 
      /**

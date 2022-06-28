@@ -25,7 +25,7 @@ class User extends Authenticatable
         'password',
     ];
     protected $attributes = [ 
-        'role' => '1',
+        'role' => '0',
         'status' => '1',
     ]; 
     /**

@@ -26,6 +26,7 @@ class AgentController extends Controller
            'amount' => 'required',
            'product_id' => 'required',
            'date' => 'required',
+           'ondate' => 'required',
        ]);
 
        return Sales::create($request->all());
@@ -47,16 +48,13 @@ class AgentController extends Controller
     //Get  collection of a user on date
     public function collection(Request $request)
     {
-        $salesDate = Sales::get('date');
-        $split = date_parse_from_format('Y-m-d h:i:s', $salesDate);
-        $day = $split['day']; 
         $collection = DB::table('sales')
-             ->where(('sales.date'),date('2022-06-27 08:48:44'))
+             ->where(('sales.ondate'),date('Y-m-d'))
              ->where('agent_id', $request->user()->id)
              ->join('products', 'sales.product_id', '=', 'products.id')
              ->get();
 
         return $collection;
     }
-
+   
 }

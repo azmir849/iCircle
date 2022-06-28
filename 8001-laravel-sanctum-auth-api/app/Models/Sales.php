@@ -14,7 +14,8 @@ class Sales extends Model
         'agent_id',
         'amount',
         'product_id',
-        'date'
+        'date',
+        'ondate'
     ];
     protected $attributes = [ 
         'status' => '1',

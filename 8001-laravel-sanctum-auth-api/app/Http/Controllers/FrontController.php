@@ -35,14 +35,21 @@ class FrontController extends Controller
      */
     public function store(Request $request)
     {
-        $request->validate([
-            'title' => 'required',
-            'type' => 'required',
-            'body' => 'required',
-            'extra_link'
-        ]);
-
-        return Front::create($request->all());
+        if($request->user()->role==='1'){
+            $request->validate([
+                'title' => 'required',
+                'type' => 'required',
+                'body' => 'required',
+                'extra_link'
+            ]);
+    
+            return Front::create($request->all());
+        }else{
+            return [
+                'message' => 'You are not permitted'
+            ];
+        }
+  
     }
 
     /**
@@ -76,9 +83,16 @@ class FrontController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $frontData = Front::find($id);
-        $frontData->update($request->all());
-        return $frontData;
+        if($request->user()->role==='1'){
+            $frontData = Front::find($id);
+            $frontData->update($request->all());
+            return $frontData;
+        }else{
+            return [
+                'message' => 'You are not permitted'
+            ];
+        }
+       
     }
 
     /**
@@ -89,7 +103,14 @@ class FrontController extends Controller
      */
     public function destroy($id)
     {
-        return Front::destroy($id);
+        if($request->user()->role==='1'){
+            return Front::destroy($id);
+        }else{
+            return [
+                'message' => 'You are not permitted'
+            ];
+        }
+        
     }
     public function search($name)
     {
