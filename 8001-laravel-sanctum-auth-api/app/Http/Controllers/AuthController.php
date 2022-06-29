@@ -6,6 +6,8 @@ use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Storage;
 
 class AuthController extends Controller
 {
@@ -16,14 +18,28 @@ class AuthController extends Controller
             'email' => 'required|string|unique:users,email',
             'phone' => 'string',
             'about' => 'string',
+            'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
             'password' => 'required|string|confirmed'
         ]);
+
+        // $input = $request->all();
+  
+        if ($image = $request->file('image')) {
+            $destinationPath = 'uploads/image/';
+            $profileImage = date('YmdHis') . "." . $image->getClientOriginalExtension();
+            $Path = 'uploads/image/'.$profileImage;
+            $image->move($destinationPath, $profileImage);
+            $image = $fields['image'] = "$Path";
+        }
+    
+        // $user= User::create($input);
 
         $user = User::create([
             'name' => $fields['name'],
             'email' => $fields['email'],
             'phone' => $fields['phone'],
             'about' => $fields['about'],
+            'image'=>$fields['image'],
             'password' => bcrypt($fields['password'])
         ]);
 
